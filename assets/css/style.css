@@ -39,12 +39,14 @@
 }
 
 .menu-items > li {
-    width: 250px;
     font-size: 1.6rem;
     list-style-type: none;
     display: inline-block;
-    padding: 0 60px;
     position: relative;
+}
+
+.menu-items > li a {
+    padding: 0 40px;
 }
 
 .newsletter {
@@ -123,10 +125,10 @@
 }
 
 /*-------------------------------------------------Media Queries*/
-@media(max-width: 940px) {
 
-    .menu-items > li {
-        padding: 0 30px;
+@media(max-width: 780px){
+    .menu-items > li a {
+        padding: 0 20px;
     }
 }
 
@@ -146,6 +148,7 @@
     .menu-items > li {
         display: none;
         z-index: 10;
+        padding: 0 15px;
     }
 
     #tick-menu:checked ~ .menu-items > li {
