@@ -61,6 +61,33 @@
     color: green;
     font-size: 36px;
 }
+
+/*-----------------------------------------------------Main Images*/
+
+#image-1 {
+    height: 300px;
+    width: 100%;
+    background: url('../images/Picture2.jpg') no-repeat center center;
+}
+
+#image-2 {
+    height: 300px;
+    width: 100%;
+    background: url('../images/Picture1.jpg') no-repeat center center;
+}
+
+#image-3 {
+    height: 300px;
+    width: 100%;
+    background: url('../images/Picture3.jpg') no-repeat center center;
+}
+
+#image-4 {
+    height: 300px;
+    width: 100%;
+    background: url('../images/Picture4.jpg') no-repeat center center;
+}
+
 /* ----------------------------------------------------General*/
 
 .center-text {
