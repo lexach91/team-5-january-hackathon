@@ -14,7 +14,6 @@
 }
 
 .box-colour > p {
-    padding-top: 80px;
     font-size: 20px;
 }
 
@@ -68,6 +67,14 @@
     text-align: center;
 }
 
+.sub-heading {
+    margin-bottom: 10px;
+}
+
+.spacer {
+    height: 50px;
+}
+
 /*---------------------------------------------------Video and Audio General*/
 
 .audio {
@@ -80,5 +87,21 @@
 
 .box-colour {
     margin: 5px 0;
-    background-color: #caf7ca;
+    background-color: green;
+}
+
+/*---------------------------------------------------Articles*/
+
+.article {
+    height: 200px;
+}
+
+/*--------------------------------------------------Links Display Area*/
+
+.links-button {
+    height: 50px;
+}
+
+.link-display-area {
+    height: 230px;
 }
