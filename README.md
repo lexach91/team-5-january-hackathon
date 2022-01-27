@@ -9,6 +9,9 @@ Collaborators: 5
 * [Features](#features)
 * [Testing](#testing)
 * [Deployment](#deployment)
+    * [Version Control](#version-control)
+    * [GitHub Pages](#github-pages)
+    * [How to clone this Repository](#how-to-clone-this-repository)
 * [Technologies Used](#technologies-used)
 * [Credits](#credits)
 
@@ -21,16 +24,19 @@ Collaborators: 5
 (contents here)
 ### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
+[Back to the top of page](#table-of-contents)
 <hr>
 
 # Features
 (contents here)
 
+[Back to the top of page](#table-of-contents)
 <hr>
 
 # Technologies Used
 (contents here)
 
+[Back to the top of page](#table-of-contents)
 <hr>
 
 # Testing
@@ -64,6 +70,7 @@ Collaborators: 5
 #### Search Engine Optimization
 (contents here)
 
+[Back to the top of page](#table-of-contents)
 <hr>
 
 # Deployment
@@ -123,7 +130,9 @@ Below is a list of steps to help you clone this repository:
 
 Once steps 1 - 7 are completed you will now have a clone of this repository on your local machine to use.
 
+[Back to the top of page](#table-of-contents)
 <hr>
 
 # Credits
 (contents here)
+[Back to the top of page](#table-of-contents)
