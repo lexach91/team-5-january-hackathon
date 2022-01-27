@@ -1,3 +1,37 @@
-body {
+/*---------------------------------------------------Temporary*/
+.heading {
     background-color: green;
 }
+
+.quote {
+    background-color: red;
+}
+/*---------------------------------------------------Navigation Links */
+
+#nav-bar {
+    margin-top: 10px;
+}
+
+.stress {
+    background-color: green;
+}
+
+.sleep {
+    background-color: yellow;
+}
+
+.concentration {
+    background-color: thistle;
+}
+
+.exercise {
+    background-color: wheat;
+}
+
+/* ----------------------------------------------------General*/
+
+.center-text {
+    text-align: center;
+}
+
+
