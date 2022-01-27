@@ -67,10 +67,38 @@ Collaborators: 5
 <hr>
 
 # Deployment
-## Version Control
-(contents here)
 
-## GitHub Pages / Heruku etc.
+## Version Control
+
+We used GitPod and Visual Studio Code as a local repository and IDE & GitHub as a remote repository.
+
+Process for GitPod:
+
+1. The repository was created on GitHub and we gave it the name team-5-january-hackathon.
+2. We then opened that repository on GitPod by prefixing 'gitpod.io/' to the URL at the top of the page within this repository.
+3. GitPod opened new workspaces for us to use.
+4. Opened a new terminal.
+
+Process for Visual Studio Code:
+
+1. We opened VS code on our local machines.
+2. Made sure we had git installed.
+3. Opened a new terminal.
+
+Together using our terminals:
+
+1. We each created a new branch for each of us to use by typing: git name-of-branch
+2. We navigated to our own branches by typing: git switch name-of-branch
+
+
+Once we were in our own branches we used:
+
+1. **git pull origin main** This pulls all data from the main branch.
+2. **git add name-of-file** This adds a file to be commited.
+3. **git commit -m "Commit message"** This allows to attach a message to our commited code.
+4. **git push orign name-of-branch** This final command pushes our work to a branch of our choosing.
+
+## GitHub Pages
 
 As a deployment solution to our project we chose to use 'GitHub Pages'. This is a resource developers can use to test how their websites look on a cloud platform.
 
