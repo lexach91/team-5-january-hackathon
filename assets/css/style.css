@@ -19,23 +19,34 @@
 
 /*---------------------------------------------------Navigation Links */
 
-#nav-bar {
-    margin-top: 10px;
-    height: 50px;
-}
-
-.menuitem a {
+#menu-bar {
     width: 100%;
-    text-decoration: none;
-    color: white;
-    height: 120px;
+    height: 60px;
 }
 
-.menuitem span {
-    text-decoration: none;
-    padding-top: 22px;
-    color: green;
-    font-size: 26px;
+.menu-icon, #tick-menu {
+    font-size: 2.5rem;
+    width: 40px;
+    height: 40px;
+    color: #9ee79d;
+    position: absolute;
+    display: none;
+    visibility: hidden;
+}
+
+.menu-items {
+    text-align: center;
+}
+
+.menu-items > li {
+    font-size: 1.6rem;
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-items > li a {
+    padding: 0 40px;
 }
 
 .newsletter {
@@ -142,10 +153,38 @@
 
 /*-------------------------------------------------Media Queries*/
 
-@media(max-width: 767px) {
-    #nav-bar {
-        height: 150px;
+@media(max-width: 780px){
+    .menu-items > li a {
+        padding: 0 20px;
     }
+}
+
+@media(max-width: 768px) {
+
+    /* hamburger menu shown at this width */
+
+    .menu-icon, #tick-menu {
+        display: block;
+        visibility: visible;
+    }
+
+    #tick-menu {
+        appearance: none;
+    }
+
+    .menu-items > li {
+        display: none;
+        z-index: 10;
+        padding: 0 15px;
+    }
+
+    #tick-menu:checked ~ .menu-items > li {
+        display: block;
+        padding: 0 10px;
+        text-align: left;
+        background-color: white;
+    }
+
 }
 
 /*-----------------------------------------------Support Area*/
