@@ -1,108 +1,146 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Logo
 
-Welcome USER_NAME,
+Collaborators: 5
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# Table of Contents
+* [UX](#ux)
+    * [User Stories](#user-stories)
+* [Features](#features)
+* [Testing](#testing)
+    * [Testing the features](#testing-the-features)
+    * [Responsive Testing](#responsive-testing)
+    * [validator Testing](#validator-testing)
+        * [HTML5](#html)
+        * [CSS3](#css3)
+        * [Lighthouse](#lighthouse)
+            * [Performance](#performance)
+            * [Accessibilty](#accessibilty)
+            * [Best Practices](#best-practices)
+            * [Search Engine Optimization](#search-engine-optimization)
+* [Deployment](#deployment)
+    * [Version Control](#version-control)
+    * [GitHub Pages](#github-pages)
+    * [How to clone this Repository](#how-to-clone-this-repository)
+* [Technologies Used](#technologies-used)
+* [Credits](#credits)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<hr>
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: _Make Public_,
+## User Stories
+(contents here)
+### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
-Another blue button should appear to click: _Open Browser_.
+[Back to the top of page](#table-of-contents)
+<hr>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Features
+(contents here)
 
-A blue button should appear to click: _Make Public_,
+[Back to the top of page](#table-of-contents)
+<hr>
 
-Another blue button should appear to click: _Open Browser_.
+# Technologies Used
+(contents here)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[Back to the top of page](#table-of-contents)
+<hr>
 
-To log into the Heroku toolbelt CLI:
+# Testing
+## Testing the Features
+(contents here)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Responsive Testing
+(contents here)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Validator Testing
+(contents here)
 
-------
+### HTML5
+(contents here)
 
-## Release History
+### CSS
+(contents here)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Lighthouse
+#### Performance
+(contents here)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+#### Accessibility
+(contents here)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+#### Best Practices
+(contents here)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Search Engine Optimization
+(contents here)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[Back to the top of page](#table-of-contents)
+<hr>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+# Deployment
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Version Control
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+We used GitPod and Visual Studio Code as a local repository and IDE & GitHub as a remote repository.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Process for GitPod:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. The repository was created on GitHub and we gave it the named team-5-january-hackathon.
+2. We then opened that repository on GitPod by prefixing 'gitpod.io/' to the URL at the top of the page within this repository.
+3. GitPod opened new workspaces for us to use.
+4. Opened a new terminal.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Process for Visual Studio Code:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+1. We opened VS code on our local machines.
+2. Made sure we had git installed.
+3. Opened a new terminal.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Together using our terminals:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. We each created a new branch for each of us to use by typing: git name-of-branch
+2. We navigated to our branches by typing: git switch name-of-branch
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+Once we were in our branches we used:
 
-## FAQ about the uptime script
+1. **git pull origin main** This pulls all data from the main branch.
+2. **git add name-of-file** This adds a file to be committed.
+3. **git commit -m "Commit message"** This allows us to attach a message to our committed code.
+4. **git push origin name-of-branch** This final command pushes our work to a branch of our choosing.
 
-**Why have you added this script?**
+## GitHub Pages
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+As a deployment solution to our project we chose to use 'GitHub Pages'. This is a resource a developer can use to test how their websites look on a cloud platform.
 
-**How will this affect me?**
+Here are the steps we took to deploy our website.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+1. In the repository we selected 'settings'.
+2. Within the options on the left middle of the screen we navigated to the 'pages' section.
+3. We then selected a branch to test.
+4. Once this was completed we received a URL for the website.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## How to clone this Repository
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Below is a list of steps to help you clone this repository:
 
-**So….?**
+1. Please log in to your GitHub account to get started.
+2. Then create a new repository within your account and give it a name.
+3. In this repository at the top of the page click the green button labelled 'code'.
+4. Choose the HTTPS option and copy the URL link you see to your clipboard.
+5. You will need to open your 'IDE' and have 'git' installed.
+6. Once you have git installed open a terminal.
+7. Type: git clone URL-from-this-repository
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Once steps 1 - 7 are completed you will now have a clone of this repository on your local machine to use.
 
-**Can I opt out?**
+[Back to the top of page](#table-of-contents)
+<hr>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+# Credits
+(contents here)
+[Back to the top of page](#table-of-contents)
