@@ -39,12 +39,12 @@
 }
 
 .newsletter {
-    background-color: greenyellow;
+    background-color: #9ee79d;
 }
 
 .quote {
     margin-top: 5px;
-    background-color: greenyellow;
+    background-color: #9ee79d;
 }
 
 .heading {
@@ -69,6 +69,7 @@
 
 .sub-heading {
     margin-bottom: 10px;
+    background-color: #9ee79d;
 }
 
 .spacer {
@@ -104,4 +105,12 @@
 
 .link-display-area {
     height: 230px;
+}
+
+/*-------------------------------------------------Media Queries*/
+
+@media(max-width: 767px) {
+    #nav-bar {
+        height: 150px;
+    }
 }
