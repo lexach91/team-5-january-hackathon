@@ -1,43 +1,50 @@
 /*---------------------------------------------------Temporary*/
-.heading {
-    background-color: green;
-}
-
-.quote {
-    background-color: red;
-}
-
 .jokes {
-    background-color: tomato;
+    background-color: green;
     margin: 5px 0;
     height: 300px;
 }
 
 .bg {
-    background-color: grey;
     margin: 5px 0;
+}
+
+.bg > p {
+    padding-top: 250px;
 }
 
 /*---------------------------------------------------Navigation Links */
 
 #nav-bar {
     margin-top: 10px;
+    height: 50px;
 }
 
-.stress {
-    background-color: green;
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
 }
 
-.sleep {
-    background-color: yellow;
+.menuitem span {
+    text-decoration: none;
+    padding-top: 22px;
+    color: green;
+    font-size: 26px;
 }
 
-.concentration {
-    background-color: thistle;
+.newsletter {
+    background-color: greenyellow;
 }
 
-.exercise {
-    background-color: wheat;
+.quote {
+    margin-top: 5px;
+    background-color: greenyellow;
+}
+
+.heading {
+    margin-top: 15px;
 }
 
 /* ----------------------------------------------------General*/
