@@ -39,10 +39,12 @@
 }
 
 .menu-items > li {
+    width: 250px;
     font-size: 1.6rem;
     list-style-type: none;
     display: inline-block;
     padding: 0 60px;
+    position: relative;
 }
 
 .newsletter {
@@ -121,32 +123,38 @@
 }
 
 /*-------------------------------------------------Media Queries*/
+@media(max-width: 940px) {
+
+    .menu-items > li {
+        padding: 0 30px;
+    }
+}
 
 @media(max-width: 768px) {
-    #nav-bar {
-        height: 150px;
-    }
+
+    /* hamburger menu shown at this width */
 
     .menu-icon, #tick-menu {
-        width: 40px;
-        height: 40px;
-        color: #9ee79d;
-        position: absolute;
         display: block;
+        visibility: visible;
     }
 
     #tick-menu {
         appearance: none;
+    }
+
+    .menu-items > li {
+        display: none;
         z-index: 10;
     }
 
-    #tick-menu ~ ul li span {
-        display: none;
+    #tick-menu:checked ~ .menu-items > li {
+        display: block;
+        padding: 0 10px;
+        text-align: left;
+        background-color: white;
     }
 
-    #tick-menu:checked ~ ul li span {
-        display: block;
-    }
 }
 
 /*-----------------------------------------------Support Area*/
