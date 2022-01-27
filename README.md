@@ -1,8 +1,5 @@
 # Logo
 
-Collaborators: 5
-
-
 # Table of Contents
 * [UX](#ux)
     * [User Stories](#user-stories)

@@ -1,0 +1,125 @@
+/*---------------------------------------------------Temporary*/
+.jokes {
+    background-color: green;
+    margin: 5px 0;
+    height: 300px;
+}
+
+.bg {
+    margin: 5px 0;
+}
+
+.bg > p {
+    padding-top: 250px;
+}
+
+.box-colour > p {
+    font-size: 20px;
+}
+
+/*---------------------------------------------------Navigation Links */
+
+#nav-bar {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem span {
+    text-decoration: none;
+    padding-top: 22px;
+    color: green;
+    font-size: 26px;
+}
+
+.newsletter {
+    background-color: #9ee79d;
+}
+
+.quote {
+    margin-top: 5px;
+    background-color: #9ee79d;
+}
+
+.heading {
+    margin-top: 15px;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.heading span {
+    text-decoration: none;
+    padding-top: 22px;
+    color: green;
+    font-size: 36px;
+}
+/* ----------------------------------------------------General*/
+
+.center-text {
+    text-align: center;
+}
+
+.sub-heading {
+    margin-bottom: 10px;
+    background-color: #9ee79d;
+}
+
+.spacer {
+    height: 50px;
+}
+
+/*---------------------------------------------------Video and Audio General*/
+
+.audio {
+    height: 200px;
+}
+
+.video {
+    height: 410px;
+}
+
+.box-colour {
+    margin: 5px 0;
+    background-color: green;
+}
+
+/*---------------------------------------------------Articles*/
+
+.article {
+    height: 200px;
+}
+
+/*--------------------------------------------------Links Display Area*/
+
+.links-button {
+    height: 50px;
+}
+
+.link-display-area {
+    height: 230px;
+}
+
+/*-----------------------------------------------Support Area*/
+
+.support {
+    height: 200px;
+}
+
+/*-------------------------------------------------Media Queries*/
+
+@media(max-width: 767px) {
+    #nav-bar {
+        height: 150px;
+    }
+}
+
+/*-----------------------------------------------Support Area*/
+
