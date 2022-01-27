@@ -6,6 +6,18 @@
 .quote {
     background-color: red;
 }
+
+.jokes {
+    background-color: tomato;
+    margin: 5px 0;
+    height: 300px;
+}
+
+.bg {
+    background-color: grey;
+    margin: 5px 0;
+}
+
 /*---------------------------------------------------Navigation Links */
 
 #nav-bar {
