@@ -1,3 +1,6 @@
+# Logo
+
+Collaborators: 5
 
 
 # Table of Contents
@@ -13,7 +16,10 @@
 <hr>
 
 # UX
-(contents here)
+
+## User Stories
+### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
+
 <hr>
 
 # Features
