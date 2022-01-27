@@ -26,16 +26,37 @@ Collaborators: 5
 (contents here)
 <hr>
 
-# Testing
+# Technologies Used
 (contents here)
+<hr>
+
+# Testing
+## Testing the Features
+
+## Responsive Testing
+
+## Validator Testing
+
+### HTML5
+
+### CSS
+
+### Lighthouse
+
+#### Performance
+
+#### Accessibility
+
+#### Best Practices
+
+#### Search Engine Optimization
+
 <hr>
 
 # Deployment
-(contents here)
-<hr>
-
-# Technologies Used
-(contents here)
+## Version Control
+## GitHub Pages / Heruku etc.
+## How to clone this Repository
 <hr>
 
 # Credits
