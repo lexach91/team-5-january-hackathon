@@ -8,6 +8,16 @@ Collaborators: 5
     * [User Stories](#user-stories)
 * [Features](#features)
 * [Testing](#testing)
+    * [Testing the features](#testing-the-features)
+    * [Responsive Testing](#responsive-testing)
+    * [validator Testing](#validator-testing)
+        * [HTML5](#html)
+        * [CSS3](#css3)
+        * [Lighthouse](#lighthouse)
+            * [Performance](#performance)
+            * [Accessibilty](#accessibilty)
+            * [Best Practices](#best-practices)
+            * [Search Engine Optimization](#search-engine-optimization)
 * [Deployment](#deployment)
     * [Version Control](#version-control)
     * [GitHub Pages](#github-pages)
@@ -56,8 +66,6 @@ Collaborators: 5
 (contents here)
 
 ### Lighthouse
-(contents here)
-
 #### Performance
 (contents here)
 
