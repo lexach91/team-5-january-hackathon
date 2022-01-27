@@ -47,6 +47,16 @@
     margin-top: 15px;
 }
 
+.heading a {
+    text-decoration: none;
+}
+
+.heading span {
+    text-decoration: none;
+    padding-top: 22px;
+    color: green;
+    font-size: 36px;
+}
 /* ----------------------------------------------------General*/
 
 .center-text {
