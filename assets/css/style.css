@@ -13,6 +13,11 @@
     padding-top: 250px;
 }
 
+.box-colour > p {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
 /*---------------------------------------------------Navigation Links */
 
 #nav-bar {
@@ -63,4 +68,17 @@
     text-align: center;
 }
 
+/*---------------------------------------------------Video and Audio General*/
 
+.audio {
+    height: 200px;
+}
+
+.video {
+    height: 410px;
+}
+
+.box-colour {
+    margin: 5px 0;
+    background-color: #caf7ca;
+}
