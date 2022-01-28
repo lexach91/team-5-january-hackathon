@@ -1,6 +1,6 @@
 /*---------------------------------------------------Temporary*/
 .jokes {
-    background-color: green;
+    background-color: #c1e5c182;
     margin: 5px 0;
     height: 300px;
 }
@@ -48,15 +48,17 @@
 
 .menu-items > li a {
     padding: 0 40px;
+    text-decoration: none;
+    color: green;
 }
 
 .newsletter {
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
 .quote {
     margin-top: 5px;
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
 .heading {
@@ -113,7 +115,7 @@ header {
 
 .sub-heading {
     margin-bottom: 10px;
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
 .spacer {
@@ -121,7 +123,7 @@ header {
 }
 
 .label {
-    background-color: green;
+    background-color: #267c26;
     margin: 5px;
     padding-top: 10px;
     color: white;
@@ -164,7 +166,7 @@ header {
 
 .box-colour {
     margin: 5px 0;
-    background-color: green;
+    background-color: #c1e5c182;
 }
 
 /*---------------------------------------------------Articles*/
