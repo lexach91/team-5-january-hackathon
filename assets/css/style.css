@@ -145,6 +145,29 @@ header {
     margin-top: 10px;
 }
 
+footer {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+footer ul > li {
+    display: inline;
+    font-size: 2rem;
+    text-decoration: #9ee79d;
+    padding: 0 3vw;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 /*---------------------------------------------------Video and Audio General*/
 
 .audio {
