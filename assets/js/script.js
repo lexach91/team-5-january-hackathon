@@ -1,15 +1,17 @@
 /* jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", () => {
-  // Joke/Activity/Quote containers
+  // Joke/Activity/Quote/Fact containers
   const jokeContainer = document.querySelector("#random-joke");
   const activityContainer = document.querySelector("#random-activity");
   const quoteContainer = document.querySelector("#random-quote");
+    const factContainer = document.querySelector("#random-fact");
 
-  // Joke/Activity/Quote buttons
+  // Joke/Activity/Quote/Fact buttons
   const refreshJoke = document.querySelector("#refresh-joke");
   const refreshActivity = document.querySelector("#refresh-activity");
   const refreshQuote = document.querySelector("#refresh-quote");
-  // Functions to get random jokes/activities/quotes
+    const refreshFact = document.querySelector("#refresh-fact");
+  // Functions to get random jokes/activities/quotes/facts
   const getRandomJoke = () => {
       let icon = refreshJoke.querySelector("i");
         icon.classList.add("fa-spin");
@@ -66,16 +68,32 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   };
 
+  const getRandomFact = () => {
+      let icon = refreshFact.querySelector("i");
+        icon.classList.add("fa-spin");
+        fetch("https://uselessfacts.jsph.pl/random.json?language=en")
+          .then(res => res.json())
+          .then((data) => {
+            factContainer.innerHTML = `<p>${data.text}</p>`;
+          })
+          .catch((err) => console.log(err))
+          .finally(() => {
+            icon.classList.remove("fa-spin");
+          });
+  };
+
   // Load jokes/activities/quotes on page load
   // Execute function only on index.html
   if (document.querySelector("#index")) {
     getRandomJoke();
     getRandomActivity();
     getRandomQuote();
+    getRandomFact();
 
     // Refresh jokes/activities/quotes
     refreshJoke.addEventListener("click", getRandomJoke);
     refreshActivity.addEventListener("click", getRandomActivity);
     refreshQuote.addEventListener("click", getRandomQuote);
+    refreshFact.addEventListener("click", getRandomFact);
   }
 });
