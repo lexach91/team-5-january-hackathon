@@ -121,7 +121,8 @@
 }
 
 .video {
-    height: 410px;
+    /* height: 410px; */
+    padding: 20px;
 }
 
 .box-colour {
