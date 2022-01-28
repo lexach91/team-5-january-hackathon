@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 const getRandomJoke = () => {
   fetch(
     "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit",
