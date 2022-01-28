@@ -114,6 +114,29 @@
     height: 50px;
 }
 
+.label {
+    background-color: green;
+    margin: 5px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article-heading {
+    height: 100px;
+    background-color: white;
+    margin-top: 230px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 26px;
+}
+
+.article-heading i {
+    color: green;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
 /*---------------------------------------------------Video and Audio General*/
 
 .audio {
@@ -152,6 +175,126 @@
     height: 200px;
 }
 
+/*-----------------------------------------------Support Area*/
+
+
+
+/*-----------------------------------------------Sleep Articles*/
+
+#sleep-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep2.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 70%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep3.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 10%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-4{
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep7.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------Stress Articles*/
+
+#stress-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress1.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 80%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 40%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-4{
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress5.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%; 
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
 /*-------------------------------------------------Media Queries*/
 
 @media(max-width: 780px){
@@ -162,7 +305,7 @@
 
 @media(max-width: 768px) {
 
-    /* hamburger menu shown at this width */
+/* hamburger menu shown at this width */
 
     .menu-icon, #tick-menu {
         display: block;
@@ -187,85 +330,3 @@
     }
 
 }
-
-/*-----------------------------------------------Support Area*/
-
-
-
-/*-----------------------------------------------Sleep Articles*/
-
-#sleep-article-1 {
-    height: 400px;
-    width: 100%;
-    background: url('../images/sleep2.jpeg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: 70%; 
-    border-radius: 10px;
-    border: 2px solid green;
-}
-
-#sleep-article-2 {
-    height: 400px;
-    width: 100%;
-    background: url('../images/sleep3.jpeg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: 10%; 
-    border-radius: 10px;
-    border: 2px solid green;
-}
-
-#sleep-article-3 {
-    height: 400px;
-    width: 100%;
-    background: url('../images/sleep4.jpeg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: 30%; 
-    border-radius: 10px;
-    border: 2px solid green;
-}
-
-#sleep-article-4{
-    height: 400px;
-    width: 100%;
-    background: url('../images/sleep7.jpeg') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position-y: 60%; 
-    border-radius: 10px;
-    border: 2px solid green;
-}
-
-.label {
-    background-color: green;
-    margin: 5px;
-    padding-top: 10px;
-    color: white;
-    border-radius: 10px;
-}
-
-.article-heading {
-    height: 100px;
-    background-color: white;
-    margin-top: 230px;
-    border-radius: 10px;
-    text-align: left;
-    font-size: 26px;
-}
-
-.article-heading i {
-    color: green;
-    font-size: 25px;
-    margin-top: 10px;
-}
-
