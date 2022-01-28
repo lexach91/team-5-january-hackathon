@@ -1,199 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <meta name="description" content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <meta
+      name="description"
+      content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health"
+    />
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
 
-    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet" />
     <title>Sleep</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container-fluid">
-        <div class="row">
-            <div class="col-12 center-text heading">
-                <a href="index.html"><span>Header</span></a>
-            </div>
+      <div class="row">
+        <div class="col-12 center-text heading">
+          <a href="index.html"><span>Header</span></a>
         </div>
-        <nav id="menu-bar">
-            <label for="tick-menu" aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"><i class="fas fa-bars menu-icon"></i></label>
-            <input type="checkbox" id="tick-menu">
-            <ul class="menu-items">
-                <li><a href="stress.html" aria-label="Click here to go our stress page">Stress</a></li>
-                <li><a href="exercise.html" aria-label="Click here to go our exercise page">Exercise</a></li>
-                <li><a href="concentration.html" aria-label="Click here to go our concentration page">Concentration</a></li>
-                <li><a href="sleep.html" aria-label="Click here to go our sleep page">Sleep</a></li>
-            </ul>
-        </nav>
-        <div class="row">
-            <div class="col-12 center-text sub-heading">
-                <h3>Sleep</h3>
-            </div>
+      </div>
+      <nav id="menu-bar">
+        <label
+          for="tick-menu"
+          aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"
+        >
+          <i class="fas fa-bars menu-icon"></i>
+        </label>
+        <input type="checkbox" id="tick-menu" />
+        <ul class="menu-items">
+          <li>
+            <a href="stress.html" aria-label="Click here to go our stress page">
+              Stress
+            </a>
+          </li>
+          <li>
+            <a
+              href="exercise.html"
+              aria-label="Click here to go our exercise page"
+            >
+              Exercise
+            </a>
+          </li>
+          <li>
+            <a
+              href="concentration.html"
+              aria-label="Click here to go our concentration page"
+            >
+              Concentration
+            </a>
+          </li>
+          <li>
+            <a href="sleep.html" aria-label="Click here to go our sleep page">
+              Sleep
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="row">
+        <div class="col-12 center-text sub-heading">
+          <h3>Sleep</h3>
         </div>
+      </div>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-6 center-text">
-                <div class="col video box-colour">
-                    <p>Video Clip</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col audio box-colour">
-                            <p>Sleeping why its important</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col audio box-colour">
-                            <p>Audio Clip</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-6 center-text">
+          <div class="col video box-colour">
+            <video
+                id="stress-relief"
+                class="video-js vjs-fluid"
+                controls
+                preload="auto"
+                width="100%"
+                height="100%"
+                poster="MY_VIDEO_POSTER.jpg"
+                data-setup='{"techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/JiTz2i4VHFw"}]}'
+            >
+                <source src="https://youtu.be/wWGulLAa0O0" type="video/mp4" />
+                <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                >
+                </p>
+            </video>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 spacer">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col audio box-colour">
+                <p>Sleeping why its important</p>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col audio box-colour">
+                <p>Audio Clip</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 col-md-6">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-1">
                 <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article" id="sleep-article-1">
-                            <div class="row">
-                                <div class="col-2 label"><p>Sleep</p></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-10 col-md-8 article-heading">
-                                    <p>Get a better nights sleep.</p>
-                                    <i class="far fa-arrow-alt-circle-right" aria-label="Click here to read the article"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="col-2 label"><p>Sleep</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article" id="sleep-article-2">
-                            <div class="row">
-                                <div class="col-2 label"><p>Sleep</p></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-10 col-md-8 article-heading">
-                                    <p>Recovering from a bad night.</p>
-                                    <i class="far fa-arrow-alt-circle-right" aria-label="Click here to read the article"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Get a better nights sleep.</p>
+                    <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="col-sm-12 col-md-6">
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-2">
                 <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article" id="sleep-article-3">
-                            <div class="row">
-                                <div class="col-2 label"><p>Sleep</p></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-10 col-md-8 article-heading">
-                                    <p>Get better at power napping.</p>
-                                    <i class="far fa-arrow-alt-circle-right" aria-label="Click here to read the article"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="col-2 label"><p>Sleep</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article" id="sleep-article-4">
-                            <div class="row">
-                                <div class="col-2 label"><p>Sleep</p></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-10 col-md-8 article-heading">
-                                    <p>Preventing restless nights.</p>
-                                    <i class="far fa-arrow-alt-circle-right" aria-label="Click here to read the article"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Recovering from a bad night.</p>
+                    <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 spacer">
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-3">
+                <div class="row">
+                  <div class="col-2 label"><p>Sleep</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Get better at power napping.</p>
+                    <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-4">
+                <div class="row">
+                  <div class="col-2 label"><p>Sleep</p></div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Preventing restless nights.</p>
+                    <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="col box-colour link-display-area">
-                    <p>Link Display Area</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 spacer">
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
             <div class="col-12">
-                <div class="col box-colour support">
-                    <p>Support Area</p>
-                </div>
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 spacer">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-6">
+          <div class="col box-colour link-display-area">
+            <p>Link Display Area</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
-  
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="col box-colour support">
+            <p>Support Area</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
+    </section>
+
     <script src="assets/js/script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <script src="assets/js/Youtube.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-</body>
+  </body>
 </html>
-
