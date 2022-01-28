@@ -246,10 +246,26 @@
     border: 2px solid green;
 }
 
-.white-label {
+.label {
     background-color: green;
     margin: 5px;
     padding-top: 10px;
     color: white;
     border-radius: 10px;
 }
+
+.article-heading {
+    height: 100px;
+    background-color: white;
+    margin-top: 230px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 26px;
+}
+
+.article-heading i {
+    color: green;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
