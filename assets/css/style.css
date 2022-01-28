@@ -175,7 +175,7 @@ header {
 
 
 .hidden {
-    background-color: white;
+    background-color: rgba(241, 253, 238, 0.92);
     border-radius: 10px;
     height: 100%;
     display: none;
