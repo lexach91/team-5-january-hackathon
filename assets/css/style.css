@@ -129,9 +129,9 @@ header {
 }
 
 .article-heading {
-    height: 100px;
+    height: 50px;
     background-color: white;
-    margin-top: 230px;
+    margin-top: 280px;
     border-radius: 10px;
     text-align: left;
     font-size: 26px;
@@ -171,6 +171,30 @@ header {
 
 .article {
     height: 200px;
+}
+
+
+.hidden {
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+    display: none;
+}
+
+.hidden > p {
+    padding-top: 15px;
+}
+
+.hidden > h2 {
+    padding-top: 15px;
+}
+
+.article:hover .hidden {
+    display: block;
+}
+
+.article:hover .inner {
+    display: none;
 }
 
 /*--------------------------------------------------Links Display Area*/
