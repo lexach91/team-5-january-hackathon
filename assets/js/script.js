@@ -97,3 +97,9 @@ document.addEventListener("DOMContentLoaded", () => {
     refreshFact.addEventListener("click", getRandomFact);
   }
 });
+
+$('.links-button').click(function() {
+  let activeLinksAreaSelector = '.' + this.id + '-links';
+  $('.link-display-area').addClass('hidden-links');
+  $(activeLinksAreaSelector).removeClass('hidden-links');
+})
