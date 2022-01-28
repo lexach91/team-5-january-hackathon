@@ -232,6 +232,18 @@ footer p {
     height: 230px;
 }
 
+.link-display-area a {
+    color: inherit;
+}
+
+.link-display-area {
+    display: none;
+}
+
+.meditation-links {
+    display: block;
+}
+
 /*-----------------------------------------------Support Area*/
 
 .support {
