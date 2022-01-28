@@ -236,12 +236,13 @@ footer p {
     color: inherit;
 }
 
-.link-display-area {
-    display: none;
+.links-button:hover {
+    cursor: pointer;
+    background-color: green;
 }
 
-.meditation-links {
-    display: block;
+.hidden-links {
+    display: none;
 }
 
 /*-----------------------------------------------Support Area*/
