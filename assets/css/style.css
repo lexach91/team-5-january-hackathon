@@ -190,3 +190,66 @@
 
 /*-----------------------------------------------Support Area*/
 
+
+
+/*-----------------------------------------------Sleep Articles*/
+
+#sleep-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep2.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 70%; 
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+#sleep-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep3.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 10%; 
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+#sleep-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%; 
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+#sleep-article-4{
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep7.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%; 
+    border-radius: 10px;
+    border: 2px solid green;
+}
+
+.white-label {
+    background-color: green;
+    margin: 5px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
