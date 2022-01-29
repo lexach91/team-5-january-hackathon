@@ -87,31 +87,32 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 # Testing
 ## Testing the Features
-* Home page
+
+### Home page
 
 - Expected results:
 - Actual results:
 - User Stories fufilled:
  
-* Main image
+### Main image
 
 - Expected results:
 - Actual results:
 - User Stories fufilled:
  
-* 4 internal pages
+### 4 internal pages
 
 - Expected results:
 - Actual results:
 - User Stories fufilled:
  
-* Newsletter
+### Newsletter
 
 - Expected results:
 - Actual results:
 - User Stories fufilled:
 
-* sign up form
+### sign up form
 
 - Expected results:
 - Actual results:
@@ -120,7 +121,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 ## Responsive Testing
 This website was built as a desktop first solution with adjustments then made for smaller devices.
 
-- Below is a table we used to keep track of adjustments and to test adjustments made. 
+Below is a table we used to keep track of adjustments and to test adjustments made. 
 
 - A = Adjusted
 - n/a = Not affected
@@ -138,15 +139,15 @@ This website was built as a desktop first solution with adjustments then made fo
 | Sleep page|||||
 
 ## Validator Testing
-(contents here)
-
 ### HTML5
-(contents here)
+The HTML was tested using the [W3C validator](https://validator.w3.org/). To do this we put the URL of each webpage into the validator.
 
-### CSS
-(contents here)
+### CSS3
+The CSS was tested using the [W3C validator](https://validator.w3.org/). We did a direct input for our CSS file.
 
 ### Lighthouse
+To test our websites performance, accessibility, best practices and SEO we used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) resource [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+
 #### Performance
 (contents here)
 
