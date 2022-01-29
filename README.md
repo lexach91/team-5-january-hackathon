@@ -1,6 +1,8 @@
-# Logo
+<h1 align="center">Logo</h1>
 
-# Table of Contents
+<details>
+<summary>Table of Contents</summary>
+
 * [UX](#ux)
     * [User Stories](#user-stories)
 * [Features](#features)
@@ -22,13 +24,31 @@
 * [Technologies Used](#technologies-used)
 * [Credits](#credits)
 
+<br>
+</details>
+
+<hr>
+
+(Image of responsive layout on screens or main page)
+# About Clover
+
+Clover was created with users working from home in mind. With the global epidemic of the previous two years, things have shifted dramatically. We want to assist folks who are having trouble working from home. The website has a lot of resources for people to look over in order to get relevant information. It's critical that people realize they're not fighting alone in whatever battle they're now engaged in. We hope to generate participation from you and look forward to hearing from you.
+
 
 <hr>
 
 # UX
 
 ## User Stories
-(contents here)
+
+* As a user, I would like to be able to browse the website.
+* As a user, I would like to know more about Clover.
+* As a user, I would like to sign up for a newsletter.
+* As a user, I would like to find Clover on other websites.
+* As a user, I need to be able to contact Clover.
+* As a user, it is important I understand how to use the website.
+
+
 ### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
 [Back to the top of page](#table-of-contents)
