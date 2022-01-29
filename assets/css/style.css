@@ -39,8 +39,7 @@
     width: 100%;
     height: 5em;
     /* margin-bottom: 10px; */
-    background-color: #144fad;
-    color: white;
+    background-color: #cbe1cb;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -80,7 +79,7 @@
 .menu-items>li a {
     padding: 0 40px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 li:hover {
@@ -404,9 +403,9 @@ li:hover {
     margin-top: 20px;
     width: 50%;
     height: 100%;
-    background-color: #144fad;
     min-height: 200px;
     position: relative;
+    background-color: white;
 }
 
 .point-right,
@@ -455,7 +454,7 @@ li:hover {
 header {
     /* border-bottom: solid 2px green;
     margin-bottom: 10px; */
-    background-color: #144fad;
+    background-color: white;
 }
 
 .center-text {
