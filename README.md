@@ -2,6 +2,7 @@
 
 <details>
 <summary>Table of Contents</summary>
+<br>
 
 * [About Clover](#about-clover)
 * [UX](#ux)
@@ -127,16 +128,16 @@ Below is a table we used to keep track of adjustments and to test adjustments ma
 - n/a = Not affected
 - X = Not included
 
-|Features - Widths| 1920px | 1440px | 1024px | 768px |
-| --- | --- | --- | --- | --- |
-| Navigation bar |||||
-| Home page |||||
-| Main images|||||
-| About |||||
-| Stress page|||||
-| Exercise page|||||
-| Concentration page|||||
-| Sleep page|||||
+|Features - Widths| 1920px | 1440px | 1024px | 768px | 425px |375px | 320px |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Navigation bar ||||||||
+| Home page ||||||||
+| Main images||||||||
+| About ||||||||
+| Stress page||||||||
+| Exercise page||||||||
+| Concentration page||||||||
+| Sleep page||||||||
 
 ## Validator Testing
 ### HTML5
