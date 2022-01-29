@@ -204,10 +204,10 @@ li:hover {
 }
 
 #image-1 {
-    height: 20vw;
-    width: 20vw;
-    max-width: 300px;
-    max-height: 300px;
+    height: 15vw;
+    width: 15vw;
+    max-width: 250px;
+    max-height: 250px;
     background: url('../images/Picture2-modified.png') no-repeat center center;
     background-size: contain;
     grid-area: 1 / 1 / 2 / 2;
@@ -216,10 +216,10 @@ li:hover {
 }
 
 #image-2 {
-    height: 20vw;
-    width: 20vw;
-    max-width: 300px;
-    max-height: 300px;
+    height: 15vw;
+    width: 15vw;
+    max-width: 250px;
+    max-height: 250px;
     background: url('../images/Picture1-modified.png') no-repeat center center;
     background-size: contain;
     grid-area: 1 / 2 / 2 / 3;
@@ -228,10 +228,10 @@ li:hover {
 }
 
 #image-3 {
-    height: 20vw;
-    width: 20vw;
-    max-width: 300px;
-    max-height: 300px;
+    height: 15vw;
+    width: 15vw;
+    max-width: 250px;
+    max-height: 250px;
     background: url('../images/Picture3-modified.png') no-repeat center center;
     background-size: contain;
     grid-area: 2 / 1 / 3 / 2;
@@ -240,10 +240,10 @@ li:hover {
 }
 
 #image-4 {
-    height: 20vw;
-    width: 20vw;
-    max-width: 300px;
-    max-height: 300px;
+    height: 15vw;
+    width: 15vw;
+    max-width: 250px;
+    max-height: 250px;
     background: url('../images/Picture4-modified.png') no-repeat center center;
     background-size: contain;
     grid-area: 2 / 2 / 3 / 3;
