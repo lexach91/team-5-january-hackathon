@@ -104,4 +104,5 @@ document.addEventListener("DOMContentLoaded", () => {
       $(this).addClass('active-links-button');
     });
   }
+
 });

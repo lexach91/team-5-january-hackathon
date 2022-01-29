@@ -198,7 +198,7 @@ li:hover {
 }
 
 .heart-link:hover {
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
 
 #image-1 {
@@ -571,6 +571,10 @@ footer p {
 
 .article:hover .inner {
     display: none;
+}
+
+.article {
+    cursor: pointer;
 }
 
 /*--------------------------------------------------Links Display Area*/
