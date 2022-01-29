@@ -87,10 +87,55 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 # Testing
 ## Testing the Features
-(contents here)
+* Home page
+
+Expected results:
+Actual results:
+User Stories fufilled:
+ 
+* Main image
+
+Expected results:
+Actual results:
+User Stories fufilled:
+ 
+* 4 internal pages
+
+Expected results:
+Actual results:
+User Stories fufilled:
+ 
+* Newsletter
+
+Expected results:
+Actual results:
+User Stories fufilled:
+
+* sign up form
+
+Expected results:
+Actual results:
+User Stories fufilled:
 
 ## Responsive Testing
-(contents here)
+This website was built as a desktop first solution with adjustments then made for smaller devices.
+
+Below is a table we used to keep track of adjustments and to test adjustments made. 
+
+A = Adjusted
+n/a = Not affected
+X = Not included
+
+|Features - Widths| 1920px | 1440px | 1024px | 768px |
+| --- | --- | --- | --- | --- |
+| Navigation bar |||||
+| Home page |||||
+| Main images|||||
+| About |||||
+| Stress page|||||
+| Exercise page|||||
+| Concentration page|||||
+| Sleep page|||||
 
 ## Validator Testing
 (contents here)
