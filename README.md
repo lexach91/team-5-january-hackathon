@@ -1,4 +1,4 @@
-<h1 align="center"><a>Logo</a></h1>
+<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/">Clover</a></h1>
 
 <details>
 <summary>Table of Contents</summary>
@@ -7,6 +7,8 @@
 * [UX](#ux)
     * [User Stories](#user-stories)
 * [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features left to Implement](#features-left-to-implement)
 * [Testing](#testing)
     * [Testing the features](#testing-the-features)
     * [Responsive Testing](#responsive-testing)
@@ -58,7 +60,15 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 <hr>
 
 # Features
-(contents here)
+## Existing Features
+
+* Home page
+* Main image
+* 4 internal pages
+* Newsletter
+* sign up form
+
+## Features left to implement
 
 [Back to the top of page](#table-of-contents)
 <hr>
