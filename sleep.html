@@ -1,166 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <meta name="description" content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <meta
+      name="description"
+      content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health"
+    />
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
 
-    <link href="assets/css/style.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+
     <title>Sleep</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="container-fluid">
-        <div class="row">
-            <div class="col-12 center-text heading">
-                <a href="index.html"><span>Header</span></a>
-            </div>
+      <div class="row">
+        <div class="col-12 center-text heading">
+          <a href="index.html"><span>Clover</span></a>
         </div>
-        <nav id="menu-bar">
-            <label for="tick-menu" aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"><i class="fas fa-bars menu-icon"></i></label>
-            <input type="checkbox" id="tick-menu">
-            <ul class="menu-items">
-                <li><a href="stress.html" aria-label="Click here to go our stress page">Stress</a></li>
-                <li><a href="exercise.html" aria-label="Click here to go our exercise page">Exercise</a></li>
-                <li><a href="concentration.html" aria-label="Click here to go our concentration page">Concentration</a></li>
-                <li><a href="sleep.html" aria-label="Click here to go our sleep page">Sleep</a></li>
-            </ul>
-        </nav>
-        <div class="row">
-            <div class="col-12 center-text sub-heading">
-                <h3>Sleep</h3>
-            </div>
-        </div>
+      </div>
+      <nav id="menu-bar">
+        <label
+          for="tick-menu"
+          aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"
+        >
+          <i class="fas fa-bars menu-icon"></i>
+        </label>
+        <input type="checkbox" id="tick-menu" />
+        <ul class="menu-items">
+          <li>
+            <a href="stress.html" aria-label="Click here to go our stress page">
+              Stress
+            </a>
+          </li>
+          <li>
+            <a
+              href="exercise.html"
+              aria-label="Click here to go our exercise page"
+            >
+              Exercise
+            </a>
+          </li>
+          <li>
+            <a
+              href="concentration.html"
+              aria-label="Click here to go our concentration page"
+            >
+              Concentration
+            </a>
+          </li>
+          <li>
+            <a href="sleep.html" aria-label="Click here to go our sleep page">
+              Sleep
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-6 center-text">
-                <div class="col video box-colour">
-                    <p>Video Clip</p>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col audio box-colour">
-                            <p>Sleeping why its important</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col audio box-colour">
-                            <p>Audio Clip</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-6 center-text">
+          <div class="col video box-colour">
+            <video
+                id="stress-relief"
+                class="video-js vjs-fluid vjs-theme-forest"
+                controls
+                preload="auto"
+                width="100%"
+                height="100%"
+                poster="assets/images/sleep-thumbnail.jpg"
+                data-setup='{"techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://youtu.be/nysjq8VIwI8"}]}'
+            >
+                <source src="https://youtu.be/wWGulLAa0O0" type="video/mp4" />
+                <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >supports HTML5 video</a
+                >
+                </p>
+            </video>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 spacer">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col audio">
+                <h2>Sleep</h2>
+                <p>"A poor night’s sleep is likely to leave us feeling irritable, tired and lethargic and can affect how
+                  we perform at work or home the next day. If your sleep is disrupted for a number of nights, you’re
+                  likely to find it difficult to concentrate and make sound decisions."</p>
             </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col audio box-colour">
+                <p>Audio Clip</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 1</p>
-                        </div>
-                    </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-1">
+                <div class="row hidden">
+                  <h2>How to get a better nights sleep.</h2>
+                  <p>There are a lot of different factors that can interfere with quality sleep. This can include family
+                    responsibilities, work, everyday stress, and unexpected new challenges.</p>
+                  <p>Getting a good night's sleep is one of the most important things you can do to maximize your
+                    health. While there are different factors that we cannot control, below, we've listed healthy habits
+                    and sleeping tips that can encourage better sleep.</p>
                 </div>
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 2</p>
-                        </div>
-                    </div>
+                <div class="row inner">
+                  <div class="col-md-4 col-lg-3 label">
+                    <p>Sleep</p>
+                  </div>
                 </div>
+                <div class="row inner">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Get a better nights sleep.  <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i></p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 3</p>
-                        </div>
-                    </div>
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-2">
+                <div class="row hidden">
+                  <h2>Recovering from a bad night sleep.</h2>
+                  <p>There are a lot of different factors that can interfere with quality sleep. This can include family
+                    responsibilities, work, everyday stress, and unexpected new challenges.</p>
+                  <p>Getting a good night's sleep is one of the most important things you can do to maximize your
+                    health. While there are different factors that we cannot control, below, we've listed healthy habits
+                    and sleeping tips that can encourage better sleep.</p>
                 </div>
-                <div class="row">
-                    <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 4</p>
-                        </div>
-                    </div>
+                <div class="row inner">
+                  <div class="col-md-4 col-lg-3 label"><p>Sleep</p></div>
                 </div>
+                <div class="row inner">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Recovering from a bad night. <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i></p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-12 spacer">
+        <div class="col-sm-12 col-md-6">
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-3">
+                <div class="row hidden">
+                  <h2>Get better at power napping.</h2>
+                  <p>There are a lot of different factors that can interfere with quality sleep. This can include family
+                    responsibilities, work, everyday stress, and unexpected new challenges.</p>
+                  <p>Getting a good night's sleep is one of the most important things you can do to maximize your
+                    health. While there are different factors that we cannot control, below, we've listed healthy habits
+                    and sleeping tips that can encourage better sleep.</p>
+                </div>
+                <div class="row inner">
+                  <div class="col-md-4 col-lg-3 label"><p>Sleep</p></div>
+                </div>
+                <div class="row inner">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Get better at power napping. <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i></p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12 center-text">
+              <div class="col box-colour article" id="sleep-article-4">
+                <div class="row hidden">
+                  <h2>Preventing restless nights.</h2>
+                  <p>There are a lot of different factors that can interfere with quality sleep. This can include family
+                    responsibilities, work, everyday stress, and unexpected new challenges.</p>
+                  <p>Getting a good night's sleep is one of the most important things you can do to maximize your
+                    health. While there are different factors that we cannot control, below, we've listed healthy habits
+                    and sleeping tips that can encourage better sleep.</p>
+                </div>
+                <div class="row inner">
+                  <div class="col-md-4 col-lg-3 label"><p>Sleep</p></div>
+                </div>
+                <div class="row inner">
+                  <div class="col-sm-10 col-md-8 article-heading">
+                    <p>Preventing restless nights. <i
+                      class="far fa-arrow-alt-circle-right"
+                      aria-label="Click here to read the article"
+                    ></i></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-6">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="col box-colour link-display-area">
-                    <p>Link Display Area</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 spacer">
-            </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
             <div class="col-12">
-                <div class="col box-colour support">
-                    <p>Support Area</p>
-                </div>
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 spacer">
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="col box-colour links-button">
+                <p>Game Link Button</p>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-6">
+          <div class="col box-colour link-display-area">
+            <p>Link Display Area</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
     </section>
-  
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="col box-colour support">
+            <p>Support Area</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 spacer"></div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Click here to go to our facebook page"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Click here to go to our twitter page"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Click here to go to our instagram page"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Click here to go to our youtube page"><i class="fab fa-youtube"></i></a></li>
+      </ul>
+      <p>Copyright © Clover</p>
+  </footer>
+
     <script src="assets/js/script.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <script src="assets/js/Youtube.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-</body>
+  </body>
 </html>

@@ -1,19 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /*---------------------------------------------------Temporary*/
 .jokes {
-    background-color: green;
+    background-color: #c1e5c182;
     margin: 5px 0;
-    height: 300px;
+    height: 400px;
 }
+
 
 .bg {
     margin: 5px 0;
 }
 
-.bg > p {
+.bg>p {
     padding-top: 250px;
 }
 
-.box-colour > p {
+.box-colour>p {
     font-size: 20px;
 }
 
@@ -21,10 +28,18 @@
 
 #menu-bar {
     width: 100%;
-    height: 60px;
+    height: 5em;
+    margin-bottom: 10px;
+    background-color: #144fad;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.menu-icon, #tick-menu {
+.menu-icon,
+#tick-menu {
     font-size: 2.5rem;
     width: 40px;
     height: 40px;
@@ -36,31 +51,42 @@
 
 .menu-items {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-.menu-items > li {
+.menu-items>li {
     font-size: 1.6rem;
     list-style-type: none;
     display: inline-block;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
-.menu-items > li a {
+.menu-items>li a {
     padding: 0 40px;
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    transform: translateY(-5px) scale(1.05);
 }
 
 .newsletter {
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
 .quote {
     margin-top: 5px;
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
-.heading {
+/* .heading {
     margin-top: 15px;
-}
+} */
 
 .heading a {
     text-decoration: none;
@@ -68,38 +94,281 @@
 
 .heading span {
     text-decoration: none;
-    padding-top: 22px;
+    /* padding-top: 22px; */
     color: green;
     font-size: 36px;
 }
 
 /*-----------------------------------------------------Main Images*/
 
+/* Slogan */
+
+#slogan-1 {
+    display: inline-block;
+    opacity: 0;
+    font-size: 5em;
+    position: relative;
+    /* top: 110px; */
+    height: 0;
+    left: 10%;
+    animation-name: appear-1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+#slogan-2 {
+    /* display: inline-block; */
+    opacity: 0;
+    font-size: 5em;
+    text-align: end;
+    position: relative;
+    top: -100px;
+    right: 10%;
+    animation-name: appear-2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+
+
+
+@keyframes appear-1 {
+    0% {
+        opacity: 0;
+        transform: translate(100px, 100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes appear-2 {
+    0% {
+        opacity: 0;
+        transform: translate(-100px, -100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes appear-3 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* make grid for flower container */
+.flower-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+    width: fit-content;
+    min-width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.heart-link {
+    transition: transform 0.3s ease-in-out;
+    opacity: 0;
+    animation-name: appear-3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.heart-link:hover {
+    transform: scale(1.15);
+}
+
 #image-1 {
-    height: 300px;
-    width: 100%;
-    background: url('../images/Picture2.jpg') no-repeat center center;
+    height: 20vw;
+    width: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+    background: url('../images/Picture2-modified.png') no-repeat center center;
+    background-size: contain;
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: end;
+    justify-self: end;
 }
 
 #image-2 {
-    height: 300px;
-    width: 100%;
-    background: url('../images/Picture1.jpg') no-repeat center center;
+    height: 20vw;
+    width: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+    background: url('../images/Picture1-modified.png') no-repeat center center;
+    background-size: contain;
+    grid-area: 1 / 2 / 2 / 3;
+    align-self: flex-end;
+    justify-self: start;
 }
 
 #image-3 {
-    height: 300px;
-    width: 100%;
-    background: url('../images/Picture3.jpg') no-repeat center center;
+    height: 20vw;
+    width: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+    background: url('../images/Picture3-modified.png') no-repeat center center;
+    background-size: contain;
+    grid-area: 2 / 1 / 3 / 2;
+    align-self: flex-start;
+    justify-self: end;
 }
 
 #image-4 {
-    height: 300px;
-    width: 100%;
-    background: url('../images/Picture4.jpg') no-repeat center center;
+    height: 20vw;
+    width: 20vw;
+    max-width: 300px;
+    max-height: 300px;
+    background: url('../images/Picture4-modified.png') no-repeat center center;
+    background-size: contain;
+    grid-area: 2 / 2 / 3 / 3;
+    align-self: flex-start;
+    justify-self: start;
 }
 
+/* ----------------------------------------------------Cheering section*/
+.cheering-section {
+    text-align: center;
+}
+
+.cheer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.grid-item-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.grid-item-2 {
+    grid-area: 2 / 2 / 3 / 3;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.grid-item-3 {
+    grid-area: 3 / 1 / 4 / 2;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.grid-item-4 {
+    grid-area: 4 / 2 / 5 / 3;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.grid-item-5 {
+    grid-area: 5 / 1 / 6 / 2;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.grid-item-6 {
+    grid-area: 6 / 2 / 7 / 3;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.grid-item-7 {
+    grid-area: 7 / 1 / 8 / 2;
+    align-self: center;
+    justify-self: flex-end;
+}
+
+.grid-item-8 {
+    grid-area: 8 / 2 / 9 / 3;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+.api-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+    background-color: #144fad;
+    min-height: 200px;
+}
+
+.point-right,
+.point-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    min-height: 200px;
+    position: relative;
+}
+
+.point-right:before {
+    content: '';
+    position: absolute;
+    background: url('../images/arrow.png') no-repeat center center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    right: -50px;
+    bottom: -20px;
+    transform: rotate(90deg);
+}
+
+.point-left::before {
+    content: '';
+    position: absolute;
+    background: url('../images/arrow.png') no-repeat center center;
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    left: -50px;
+    top: -50px;
+    transform: rotate(0deg) scaleX(-1);
+}
+
+
 /* ----------------------------------------------------General*/
+
+header {
+    /* border-bottom: solid 2px green;
+    margin-bottom: 10px; */
+    background-color: #144fad;
+}
 
 .center-text {
     text-align: center;
@@ -107,11 +376,60 @@
 
 .sub-heading {
     margin-bottom: 10px;
-    background-color: #9ee79d;
+    background-color: #c1e5c182;
 }
 
 .spacer {
     height: 50px;
+}
+
+.label {
+    background-color: #267c26;
+    margin: 5px;
+    padding-top: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article-heading {
+    height: 50px;
+    background-color: white;
+    margin-top: 280px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 26px;
+}
+
+.article-heading i {
+    color: green;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
+/* ----------------------------------------------------Footer*/
+
+footer {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+footer ul>li {
+    display: inline;
+    font-size: 2rem;
+    text-decoration: #9ee79d;
+    padding: 0 3vw;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 /*---------------------------------------------------Video and Audio General*/
@@ -120,19 +438,52 @@
     height: 200px;
 }
 
+.audio>h2 {
+    padding-top: 20px;
+}
+
+.audio>p {
+    padding-top: 10px;
+}
+
 .video {
-    height: 410px;
+    /* height: 410px; */
+    padding: 20px;
 }
 
 .box-colour {
     margin: 5px 0;
-    background-color: green;
+    background-color: #c1e5c182;
 }
 
 /*---------------------------------------------------Articles*/
 
 .article {
     height: 200px;
+}
+
+
+.hidden {
+    background-color: rgba(241, 253, 238, 0.92);
+    border-radius: 10px;
+    height: 100%;
+    display: none;
+}
+
+.hidden>p {
+    padding-top: 15px;
+}
+
+.hidden>h2 {
+    padding-top: 15px;
+}
+
+.article:hover .hidden {
+    display: block;
+}
+
+.article:hover .inner {
+    display: none;
 }
 
 /*--------------------------------------------------Links Display Area*/
@@ -145,16 +496,270 @@
     height: 230px;
 }
 
+.link-display-area a {
+    color: inherit;
+}
+
+.links-button:hover {
+    cursor: pointer;
+    transform: translateY(-5px) scale(1.05);
+}
+
+.active-links-button {
+    background-color: #144fad;
+}
+
+.hidden-links {
+    display: none;
+}
+
 /*-----------------------------------------------Support Area*/
 
 .support {
     height: 200px;
 }
 
+/*-----------------------------------------------Support Area*/
+
+
+
+/*-----------------------------------------------Sleep Articles*/
+
+#sleep-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep2.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 70%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep3.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 10%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#sleep-article-4 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/sleep7.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------Stress Articles*/
+
+#stress-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress1.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 80%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress2.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 40%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#stress-article-4 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/stress5.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------Exercise Articles*/
+
+#exercise-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/exercise1.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 80%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#exercise-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/exercise2.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 40%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#exercise-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/exercise3.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#exercise-article-4 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/exercise4.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------Concentration Articles*/
+
+#concentration-article-1 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/concentration1.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 80%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#concentration-article-2 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/concentration3.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 40%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#concentration-article-3 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/concentration5.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 30%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+#concentration-article-4 {
+    height: 400px;
+    width: 100%;
+    background: url('../images/concentration6.jpeg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position-y: 60%;
+    border-radius: 10px;
+    border: 2px solid green;
+    opacity: 0.8;
+}
+
+
 /*-------------------------------------------------Media Queries*/
 
-@media(max-width: 780px){
-    .menu-items > li a {
+@media(max-width: 780px) {
+    .menu-items>li a {
         padding: 0 20px;
     }
 }
@@ -163,7 +768,8 @@
 
     /* hamburger menu shown at this width */
 
-    .menu-icon, #tick-menu {
+    .menu-icon,
+    #tick-menu {
         display: block;
         visibility: visible;
     }
@@ -172,13 +778,13 @@
         appearance: none;
     }
 
-    .menu-items > li {
+    .menu-items>li {
         display: none;
         z-index: 10;
         padding: 0 15px;
     }
 
-    #tick-menu:checked ~ .menu-items > li {
+    #tick-menu:checked~.menu-items>li {
         display: block;
         padding: 0 10px;
         text-align: left;
@@ -186,6 +792,3 @@
     }
 
 }
-
-/*-----------------------------------------------Support Area*/
-

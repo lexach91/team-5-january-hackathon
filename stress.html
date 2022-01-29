@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <meta name="description" content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        type="text/css" />
+    <meta name="description"
+        content="Clover offers its customers the oppurtunity to relax, unwind and focus on their mental health">
 
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
     <title>Stress</title>
 </head>
+
 <body>
     <header class="container-fluid">
         <div class="row">
             <div class="col-12 center-text heading">
-                <a href="index.html"><span>Header</span></a>
+                <a href="index.html"><span>Clover</span></a>
             </div>
         </div>
         <nav id="menu-bar">
-            <label for="tick-menu" aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"><i class="fas fa-bars menu-icon"></i></label>
+            <label for="tick-menu"
+                aria-label="Click here when screen sizes are 768 pixels wide or less to display the menu"><i
+                    class="fas fa-bars menu-icon"></i></label>
             <input type="checkbox" id="tick-menu">
             <ul class="menu-items">
                 <li><a href="stress.html" aria-label="Click here to go our stress page">Stress</a></li>
                 <li><a href="exercise.html" aria-label="Click here to go our exercise page">Exercise</a></li>
-                <li><a href="concentration.html" aria-label="Click here to go our concentration page">Concentration</a></li>
+                <li><a href="concentration.html" aria-label="Click here to go our concentration page">Concentration</a>
+                </li>
                 <li><a href="sleep.html" aria-label="Click here to go our sleep page">Sleep</a></li>
             </ul>
         </nav>
-        <div class="row">
-            <div class="col-12 center-text sub-heading">
-                <h3>Stress</h3>
-            </div>
-        </div>
     </header>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-6 center-text">
+            <div class="col-lg-6 center-text">
                 <div class="col video box-colour">
-                    <p>Video Clip</p>
+                    <video id="stress-relief" class="video-js vjs-fluid vjs-theme-forest" controls preload="auto"
+                        width="100%" height="100%" poster="assets/images/stress-thumbnail.jpg" data-setup="{}">
+                        <source src="assets/video/stress-relief.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a
+                            web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-lg-6">
                 <div class="row">
                     <div class="col-12 center-text">
-                        <div class="col audio box-colour">
-                            <p>Sleeping why its important</p>
+                        <div class="col audio">
+                            <h2>Stress</h2>
+                            <p>"Stress is something everyone feels at times, and there are all kinds of stressful
+                                situations that can be a part of daily life. Low-level stress can even be helpful or
+                                motivational."</p>
                         </div>
                     </div>
                 </div>
@@ -64,34 +79,78 @@
     </section>
     <section class="container-fluid">
         <div class="row">
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="row">
                     <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 1</p>
+                        <div class="col box-colour article" id="stress-article-1">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 label">
+                                    <p>Stress</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10 col-md-8 article-heading">
+                                    <p>How to meditate.</p>
+                                    <i class="far fa-arrow-alt-circle-right"
+                                        aria-label="Click here to read the article"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 2</p>
+                        <div class="col box-colour article" id="stress-article-2">
+                            <div class="row">
+                                <div class="ccol-md-4 col-lg-3 label">
+                                    <p>Stress</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10 col-md-8 article-heading">
+                                    <p>Relieve stress through crafts.</p>
+                                    <i class="far fa-arrow-alt-circle-right"
+                                        aria-label="Click here to read the article"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-sm-12 col-md-6">
                 <div class="row">
                     <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 3</p>
+                        <div class="col box-colour article" id="stress-article-3">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 label">
+                                    <p>Stress</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10 col-md-8 article-heading">
+                                    <p>How to avoid burn out.</p>
+                                    <i class="far fa-arrow-alt-circle-right"
+                                        aria-label="Click here to read the article"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 center-text">
-                        <div class="col box-colour article">
-                            <p>Article 4</p>
+                        <div class="col box-colour article" id="stress-article-4">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-3 label">
+                                    <p>Stress</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-10 col-md-8 article-heading">
+                                    <p>Animal therapy.</p>
+                                    <i class="far fa-arrow-alt-circle-right"
+                                        aria-label="Click here to read the article"></i>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,26 +162,27 @@
         </div>
     </section>
     <section class="container-fluid">
+        <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
         <div class="row">
             <div class="col-6">
                 <div class="row">
                     <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
+                        <div id="meditation" class="col box-colour links-button active-links-button">
+                            <p>Meditation</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
+                        <div id ="puzzles" class="col box-colour links-button">
+                            <p>Puzzle and painting Apps</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <div class="col box-colour links-button">
-                            <p>Game Link Button</p>
+                        <div id="animal-therapy" class="col box-colour links-button">
+                            <p>Animal Therapy</p>
                         </div>
                     </div>
                 </div>
@@ -135,8 +195,70 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="col box-colour link-display-area">
-                    <p>Link Display Area</p>
+                <div class="col box-colour link-display-area active-links meditation-links">
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://insighttimer.com/' aria-label='Insight Timer'>Insight Timer</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Lots and lots of free meditation content </p>
+                        </div>
+                    </div>
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://www.tenpercent.com/' aria-label='Ten Percent Happier'>Ten Percent
+                                Happier</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Perfect for beginners</p>
+                        </div>
+                    </div>
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://www.simplehabit.com/' aria-label='Simple Habits'>Simple Habits</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Mobile App with five-minute meditations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box-colour link-display-area hidden-links puzzles-links">
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://www.colortherapy.app/' aria-label='Color Therapy'>Color Therapy</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Paint and join the community</p>
+                        </div>
+                    </div>
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://happycolor.app/' aria-label='Happy Color'>Happy Color</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Lots of free content</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col box-colour link-display-area hidden-links animal-therapy-links">
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://www.youtube.com/watch?v=7iVbsEj8nPY' aria-label='Funny Animal Videos'>Funny
+                                Animal Videos</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Relax with some funny animal videos</p>
+                        </div>
+                    </div>
+                    <div class="row app-link">
+                        <div class="col-4">
+                            <a href='https://www.servicedogcertifications.org/animal-relieve-stress/'
+                                aria-label='Service Dog Certifications'>Service Dog Certifications</a>
+                        </div>
+                        <div class="col-8">
+                            <p>Read more about how pets can help you relieve stress</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -158,9 +280,29 @@
             </div>
         </div>
     </section>
-  
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Click here to go to our facebook page"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Click here to go to our twitter page"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Click here to go to our instagram page"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Click here to go to our youtube page"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+        <p>Copyright © Clover</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </body>
+
 </html>
