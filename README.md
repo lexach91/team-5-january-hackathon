@@ -56,7 +56,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 ### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about)
 <hr>
 
 # Features
@@ -70,7 +70,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 ## Features left to implement
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about)
 <hr>
 
 # Technologies Used
@@ -160,7 +160,7 @@ To test our websites performance, accessibility, best practices and SEO we used 
 #### Search Engine Optimization
 (contents here)
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about)
 <hr>
 
 # Deployment
@@ -220,9 +220,9 @@ Below is a list of steps to help you clone this repository:
 
 Once steps 1 - 7 are completed you will now have a clone of this repository on your local machine to use.
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about)
 <hr>
 
 # Credits
 (contents here)
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about)
