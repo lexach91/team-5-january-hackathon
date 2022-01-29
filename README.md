@@ -56,7 +56,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 ### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
-[Back to the top of page](#about)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Features
@@ -70,7 +70,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 ## Features left to implement
 
-[Back to the top of page](#about)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Technologies Used
@@ -82,7 +82,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 * [GitHub](https://github.com/) as our remote repository.
 * [Visual Studio Code](https://code.visualstudio.com/) was used as local IDE and repository.
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Testing
@@ -160,7 +160,7 @@ To test our websites performance, accessibility, best practices and SEO we used 
 #### Search Engine Optimization
 (contents here)
 
-[Back to the top of page](#about)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Deployment
@@ -220,9 +220,9 @@ Below is a list of steps to help you clone this repository:
 
 Once steps 1 - 7 are completed you will now have a clone of this repository on your local machine to use.
 
-[Back to the top of page](#about)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Credits
 (contents here)
-[Back to the top of page](#about)
+[Back to the top of page](#about-clover)
