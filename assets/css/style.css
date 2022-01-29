@@ -1,3 +1,11 @@
+:root {
+    --light-green: #CBE1CB;
+    --medium-green: #A2CDA2;
+    --dark-green: #335C33;
+    --comp-col: #EE6C4D;
+    --black:#070D07;
+}
+
 * {
     margin: 0;
     padding: 0;
