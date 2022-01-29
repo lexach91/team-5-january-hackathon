@@ -81,6 +81,7 @@ li:hover {
 
 .newsletter {
     background-color: #c1e5c182;
+    margin: 20px 0;
 }
 
 .quote {
@@ -764,6 +765,7 @@ footer p {
 }
 
 
+
 /*-------------------------------------------------Media Queries*/
 
 @media(max-width: 780px) {
@@ -797,6 +799,11 @@ footer p {
         padding: 0 10px;
         text-align: left;
         background-color: white;
+    }
+
+    .submitButtom {
+        /* border: 1px solid red !important; */
+        margin-left: 18px;
     }
 
 }
