@@ -95,11 +95,11 @@ document.addEventListener("DOMContentLoaded", () => {
     refreshActivity.addEventListener("click", getRandomActivity);
     refreshQuote.addEventListener("click", getRandomQuote);
     refreshFact.addEventListener("click", getRandomFact);
+  } else {
+    $('.links-button').click(function() {
+      let activeLinksAreaSelector = '.' + this.id + '-links';
+      $('.link-display-area').addClass('hidden-links');
+      $(activeLinksAreaSelector).removeClass('hidden-links');
+    });
   }
 });
-
-$('.links-button').click(function() {
-  let activeLinksAreaSelector = '.' + this.id + '-links';
-  $('.link-display-area').addClass('hidden-links');
-  $(activeLinksAreaSelector).removeClass('hidden-links');
-})
