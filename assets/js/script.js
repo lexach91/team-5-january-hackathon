@@ -100,6 +100,8 @@ document.addEventListener("DOMContentLoaded", () => {
       let activeLinksAreaSelector = '.' + this.id + '-links';
       $('.link-display-area').addClass('hidden-links');
       $(activeLinksAreaSelector).removeClass('hidden-links');
+      $('.links-button').removeClass('active-links-button');
+      $(this).addClass('active-links-button');
     });
   }
 });
