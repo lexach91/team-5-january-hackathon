@@ -111,9 +111,9 @@ li:hover {
 #slogan-1 {
     display: inline-block;
     opacity: 0;
-    font-size: 5em;
+    font-size: 3em;
     position: relative;
-    /* top: 110px; */
+    top: 20px;
     height: 0;
     left: 10%;
     animation-name: appear-1;
@@ -126,11 +126,11 @@ li:hover {
 #slogan-2 {
     /* display: inline-block; */
     opacity: 0;
-    font-size: 5em;
+    font-size: 3em;
     text-align: end;
     position: relative;
-    top: -100px;
-    right: 10%;
+    top: -20px;
+    /* right: 10%; */
     animation-name: appear-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
