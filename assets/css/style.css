@@ -601,6 +601,24 @@ footer p {
     display: none;
 }
 
+.app-link {
+    position: relative;
+    padding: 5px 0px;
+}
+
+.app-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    left: 15%;
+    border-bottom: 1px solid green;
+}
+
+.app-link:last-of-type::before {
+    border-bottom: none;
+}
+
 /*-----------------------------------------------Support Area*/
 
 .support {
