@@ -510,7 +510,11 @@ footer p {
 
 .links-button:hover {
     cursor: pointer;
-    background-color: green;
+    transform: translateY(-5px) scale(1.05);
+}
+
+.active-links-button {
+    background-color: #144fad;
 }
 
 .hidden-links {
