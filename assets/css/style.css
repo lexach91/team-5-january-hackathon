@@ -253,6 +253,7 @@ li:hover {
 /* ----------------------------------------------------Cheering section*/
 .cheering-section {
     text-align: center;
+    position: relative;
 }
 
 .cheer-grid {
@@ -325,6 +326,7 @@ li:hover {
     height: 100%;
     background-color: #144fad;
     min-height: 200px;
+    position: relative;
 }
 
 .point-right,
@@ -351,6 +353,7 @@ li:hover {
     right: -50px;
     bottom: -20px;
     transform: rotate(90deg);
+    z-index: 2;
 }
 
 .point-left::before {
@@ -363,6 +366,7 @@ li:hover {
     left: -50px;
     top: -50px;
     transform: rotate(0deg) scaleX(-1);
+    z-index: 2;
 }
 
 
