@@ -1,8 +1,8 @@
 :root {
-    --light-green: #CBE1CB;
+    --light-green: #E4F1E4;
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
-    --comp-col: #EE6C4D;
+    --comp-col: #9B5DE5;
     --black:#070D07;
 }
 
@@ -10,6 +10,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-green);
 }
 
 
@@ -39,7 +43,7 @@
     width: 100%;
     height: 5em;
     /* margin-bottom: 10px; */
-    background-color: #144fad;
+    background-color: var(--dark-green);
     color: white;
     text-align: center;
     display: flex;
@@ -55,7 +59,7 @@
     font-size: 2.5rem;
     width: 40px;
     height: 40px;
-    color: #9ee79d;
+    color: var(--medium-green);
     position: absolute;
     display: none;
     visibility: hidden;
@@ -88,13 +92,13 @@ li:hover {
 }
 
 .newsletter {
-    background-color: #c1e5c182;
+    background-color: var(--comp-col);
     margin: 20px 0;
 }
 
 .quote {
     margin-top: 5px;
-    background-color: #c1e5c182;
+    background-color: var(--comp-col);
 }
 
 /* .heading {
@@ -108,7 +112,7 @@ li:hover {
 .heading span {
     text-decoration: none;
     /* padding-top: 22px; */
-    color: green;
+    color: var(--light-green);
     font-size: 36px;
 }
 
@@ -225,7 +229,7 @@ li:hover {
     grid-row-gap: 0px;
     justify-items: end;
     width: 75%;
-    background-color: #CBE1CB;
+    background-color: var(--medium-green);
 }
 
 .content-1 {
@@ -455,7 +459,7 @@ li:hover {
 header {
     /* border-bottom: solid 2px green;
     margin-bottom: 10px; */
-    background-color: #144fad;
+    background-color: var(--dark-green);
 }
 
 .center-text {
@@ -472,7 +476,7 @@ header {
 }
 
 .label {
-    background-color: #267c26;
+    background-color: var(--comp-col);
     margin: 5px;
     padding-top: 10px;
     color: white;
@@ -489,7 +493,7 @@ header {
 }
 
 .article-heading i {
-    color: green;
+    color: var(--dark-green);
     font-size: 25px;
     margin-top: 10px;
 }
@@ -511,7 +515,7 @@ footer ul {
 footer ul>li {
     display: inline;
     font-size: 2rem;
-    text-decoration: #9ee79d;
+    text-decoration: var(--medium-green);
     padding: 0 3vw;
 }
 
@@ -541,7 +545,7 @@ footer p {
 
 .box-colour {
     margin: 5px 0;
-    background-color: #c1e5c182;
+    background-color: var(--medium-green);
 }
 
 /*---------------------------------------------------Articles*/
@@ -594,7 +598,7 @@ footer p {
 }
 
 .active-links-button {
-    background-color: #144fad;
+    background-color: var(--dark-green);
 }
 
 .hidden-links {
@@ -612,7 +616,7 @@ footer p {
     bottom: 0;
     width: 70%;
     left: 15%;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid var(--dark-green);
 }
 
 .app-link:last-of-type::before {
@@ -641,7 +645,7 @@ footer p {
     background-size: cover;
     background-position-y: 70%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -655,7 +659,7 @@ footer p {
     background-size: cover;
     background-position-y: 10%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -669,7 +673,7 @@ footer p {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -683,7 +687,7 @@ footer p {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -699,7 +703,7 @@ footer p {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -713,7 +717,7 @@ footer p {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -727,7 +731,7 @@ footer p {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -741,7 +745,7 @@ footer p {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -757,7 +761,7 @@ footer p {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -771,7 +775,7 @@ footer p {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -785,7 +789,7 @@ footer p {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -799,7 +803,7 @@ footer p {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -815,7 +819,7 @@ footer p {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -829,7 +833,7 @@ footer p {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -843,7 +847,7 @@ footer p {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -857,7 +861,7 @@ footer p {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
