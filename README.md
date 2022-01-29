@@ -64,7 +64,13 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 <hr>
 
 # Technologies Used
-(contents here)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to structure webpages.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) used for styling the website.
+* [JavaScript](https://www.javascript.com/) was used to add interative content.
+* [Git](https://git-scm.com/) was our version control system.
+* [GitPod](https://www.gitpod.io/) was used as local IDE and repository.
+* [GitHub](https://github.com/) as our remote repository.
+* [Visual Studio Code](https://code.visualstudio.com/) was used as local IDE and repository.
 
 [Back to the top of page](#table-of-contents)
 <hr>
