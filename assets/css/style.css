@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
 :root {
     --light-green: #CBE1CB;
     --light-green-transparent: rgba(203, 225, 203, 0.8);
