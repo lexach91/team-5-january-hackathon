@@ -513,6 +513,7 @@ header {
     justify-content: center;
     padding-top: 30px;
     font-size: 30px;
+    color: var(--dark-comp-col);
 }
 
 .rating-text {
