@@ -12,6 +12,7 @@ body {
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
     --comp-col: #C497AB;
+    --dark-comp-col:#90516D;
     --black:#070D07;
 }
 
@@ -387,14 +388,14 @@ li:hover {
     width: 30px;
     height: 30px;
     font-size: 25px;
-    color: var(--dark-green)
+    color: var(--comp-col);
 }
 
 
 .api-header:before {
     content: '';
     position: absolute;
-    background: url('../images/arrow.png') no-repeat center center;
+    background: url('../images/arrow_pink.png') no-repeat center center;
     background-size: contain;
     width: 100px;
     height: 100px;
@@ -444,7 +445,7 @@ header {
 }
 
 .article-heading i {
-    color: var(--dark-green);
+    color: var(--dark-comp-col);
     font-size: 25px;
     margin-top: 10px;
 }
@@ -563,7 +564,7 @@ footer i {
 
 .video {
     /* height: 410px; */
-    padding: 20px;
+    padding: 10px;
 }
 
 .box-colour {
@@ -638,7 +639,7 @@ footer i {
 }
 
 .article-heading-hidden i {
-    color: var(--dark-green);
+    color: var(--comp-col);
     font-size: 25px;
     margin-top: 10px;
 }
@@ -690,6 +691,12 @@ footer i {
 .links-button i {
     width: 100%;
     display: inline;
+    color: var(--dark-comp-col);
+}
+.app-links-container:first-of-type i {
+    width: 100%;
+    display: inline;
+    color: white;
 }
 
 .links-button:hover {
@@ -1029,7 +1036,7 @@ footer i {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .link-display-area {
         height: 230px;
     }

@@ -140,6 +140,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   if (window.location.pathname !== "/index.html") {
+    $('.links-button').first().children('i').css('color', 'white');
     $('.links-button').click(function() {
       let activeLinksAreaSelector = '.' + this.id + '-links';
       $('.link-display-area').addClass('hidden-links');
@@ -148,8 +149,11 @@ document.addEventListener("DOMContentLoaded", () => {
       $(this).addClass('active-links-button');
       $('.links-button').children('i').removeClass('fa-arrow-alt-circle-right');
       $('.links-button').children('i').addClass('fa-arrow-alt-circle-down');
+      $('.links-button').children('i').removeAttr('style');
       $(this).children('i').removeClass('fa-arrow-alt-circle-down');
       $(this).children('i').addClass('fa-arrow-alt-circle-right');
+      $(this).children('i').css('color', 'white');
+
     });
   }
 
