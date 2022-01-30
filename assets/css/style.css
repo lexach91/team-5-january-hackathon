@@ -488,10 +488,10 @@ header {
 }
 
 .team-id-image img{
-    height: 300px;
     width: 75%;
     margin-left: 50px;
     margin-top: 10px;
+    border-radius: 50%;
 }
 
 .team-text {
