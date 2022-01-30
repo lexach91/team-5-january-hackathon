@@ -1037,6 +1037,12 @@ footer i {
     }
 }
 
+@media screen and (max-width: 992px) {
+    .link-display-area {
+        height: 230px;
+    }
+}
+
 @media screen and (max-width: 970px) {
     .flower-row {
         grid-gap: 10px;
