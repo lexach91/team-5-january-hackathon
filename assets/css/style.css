@@ -482,10 +482,18 @@ header {
 
 /* -------------------------------------------------Meet the Team */
 
+#small-meet-team {
+    display: none;
+}
+
 .meet-team-header {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.meet-team-header h2 {
+    font-size: 36px;
 }
 
 .team-id-image {
@@ -504,6 +512,10 @@ header {
     padding-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.about-line {
+    border-top: solid 2px var(--comp-col);;
 }
 
 /* ----------------------------------------------------Ratings*/
@@ -740,6 +752,7 @@ footer i {
 .support {
     height: 200px;
     padding-top: 50px;
+    margin-top: 20px;
 }
 
 /*-----------------------------------------------Support Area*/
@@ -1157,6 +1170,28 @@ footer i {
 @media(max-width: 575px) {
     .team-id-image img {
         width: 30%;
+    }
+    #small-meet-team {
+        display: block;
+    }
+    .small-image-about img {
+        width: 100%;
+        border-radius: 50%;
+        padding-top: 20%;
+    }
+    .small-text-about p {
+        font-size: 15px;
+        text-align: center;
+    }
+    #large-meet-team {
+        display: none;
+    }
+    .small-text-about {
+        padding: 5px;
+        padding-top: 10%;
+    }
+    .meet-team-header {
+        text-align: center;
     }
 }
 
