@@ -801,7 +801,7 @@ footer i {
 #stress-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress1.jpeg') no-repeat center center;
+    background: url('../images/stress1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -815,7 +815,7 @@ footer i {
 #stress-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress2.jpg') no-repeat center center;
+    background: url('../images/stress2.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -829,7 +829,7 @@ footer i {
 #stress-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress4.jpeg') no-repeat center center;
+    background: url('../images/stress4.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -843,7 +843,7 @@ footer i {
 #stress-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress5.jpeg') no-repeat center center;
+    background: url('../images/stress5.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
