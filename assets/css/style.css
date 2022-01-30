@@ -2,14 +2,16 @@
 
 body {
     font-family: 'Zen Kurenaido', sans-serif;
+    background-color: var(--really-light-green);
 }
 
 :root {
+    --really-light-green: #E5F0E5;
     --light-green: #CBE1CB;
     --light-green-transparent: rgba(203, 225, 203, 0.8);
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
-    --comp-col: #EE6C4D;
+    --comp-col: #C497AB;
     --black:#070D07;
 }
 
@@ -49,7 +51,7 @@ body {
 #menu-bar {
     width: 100%;
     height: 5em;
-    background-color: #cbe1cb;
+    background-color: var(--medium-green);
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -61,7 +63,7 @@ body {
     font-size: 2.5rem;
     width: 40px;
     height: 40px;
-    color: black;
+    color: var(--dark-green);
     position: absolute;
     display: none;
     visibility: hidden;
@@ -99,7 +101,7 @@ li:hover {
 }
 
 .newsletter {
-    background-color: #dff2df;
+    background-color: var(--medium-green);
     margin: 20px 0;
 }
 
@@ -119,7 +121,7 @@ li:hover {
 .heading span {
     text-decoration: none;
     /* padding-top: 22px; */
-    color: green;
+    color: var(--dark-green);
     font-size: 36px;
 }
 
@@ -213,6 +215,7 @@ li:hover {
     height: 100%;
     min-height: 30vh;
     transition: all 0.3s ease-in-out;
+    background-color: var(--light-green);
     cursor: pointer;
 }
 
@@ -243,7 +246,6 @@ li:hover {
     grid-row-gap: 0px;
     justify-items: end;
     width: 75%;
-    background-color: #CBE1CB;
 }
 
 .content-1 {
@@ -275,7 +277,6 @@ li:hover {
     grid-row-gap: 0px;
     justify-items: start;
     width: 75%;
-    background-color: #CBE1CB;
 }
 
 .content-2 {
@@ -308,7 +309,6 @@ li:hover {
     grid-row-gap: 0px;
     justify-items: end;
     width: 75%;
-    background-color: #CBE1CB;
 }
 
 .content-3 {
@@ -338,7 +338,6 @@ li:hover {
     grid-row-gap: 0px;
     justify-items: start;
     width: 75%;
-    background-color: #CBE1CB;
 }
 
 .content-4 {
@@ -376,7 +375,7 @@ li:hover {
 .api-content {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid var(--black);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -436,7 +435,7 @@ header {
 }
 
 .label {
-    background-color: #267c26;
+    background-color: var(--dark-green);
     margin: 5px;
     padding-top: 10px;
     color: white;
@@ -453,14 +452,20 @@ header {
 }
 
 .article-heading i {
-    color: green;
+    color: var(--dark-green);
     font-size: 25px;
     margin-top: 10px;
 }
 
 .green-spacer {
     height: 50px;
-    background-color: #c1e5c182;
+    background-color: var(--medium-green);
+}
+
+.btn-success {
+    color: #fff;
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
 }
 
 /* ---------------------------------------------------About Us*/
@@ -537,7 +542,6 @@ footer ul {
 footer ul>li {
     display: inline;
     font-size: 2rem;
-    text-decoration: #9ee79d;
     padding: 0 3vw;
 }
 
@@ -572,7 +576,7 @@ footer i {
 
 .box-colour {
     margin: 5px 0;
-    background-color: #c1e5c182;
+    background-color: var(--comp-col);
 }
 
 /*---------------------------------------------------Articles*/
@@ -608,12 +612,12 @@ footer i {
     text-align: left;
     font-weight: bold;
     padding-bottom: 5px;
-    color: #43682A;
+    color: var(--dark-green);
 }
 
 .hidden-text h4 i {
     padding-left: 5px;
-    color: #43682A;
+    color: var(--dark-green);
 }
 
 .hidden-text li {
@@ -642,19 +646,19 @@ footer i {
 }
 
 .article-heading-hidden i {
-    color: #43682A;
+    color: var(--dark-green);
     font-size: 25px;
     margin-top: 10px;
 }
 
 .article-heading-hidden a {
     text-decoration: none;
-    color: black;
+    color: var(--black);
 }
 
 .article-heading-hidden:hover {
     cursor: pointer;
-    border: solid 2px #43682A;
+    border: solid 2px var(--dark-green);
 }
 
 .article:hover .hidden {
@@ -673,11 +677,14 @@ footer i {
 
 .links-button {
     height: 50px;
+    background-color: var(--light-green);
 }
 
 .link-display-area {
     padding-bottom: 14px;
+    background-color: var(--light-green);
 }
+
 
 .link-display-area a {
     color: inherit;
@@ -736,7 +743,7 @@ footer i {
 
 .support {
     height: 100px;
-    background-color: #c1e5c182;
+    background-color: var(--comp-col);
 }
 
 /*-----------------------------------------------Sleep Articles*/
@@ -751,7 +758,7 @@ footer i {
     background-size: cover;
     background-position-y: 70%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -765,7 +772,7 @@ footer i {
     background-size: cover;
     background-position-y: 10%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -779,7 +786,7 @@ footer i {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -793,7 +800,7 @@ footer i {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -809,7 +816,7 @@ footer i {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -823,7 +830,7 @@ footer i {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -837,7 +844,7 @@ footer i {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -851,7 +858,7 @@ footer i {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -867,7 +874,7 @@ footer i {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -881,7 +888,7 @@ footer i {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -895,7 +902,7 @@ footer i {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -909,7 +916,7 @@ footer i {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -925,7 +932,7 @@ footer i {
     background-size: cover;
     background-position-y: 80%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -939,7 +946,7 @@ footer i {
     background-size: cover;
     background-position-y: 40%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -953,7 +960,7 @@ footer i {
     background-size: cover;
     background-position-y: 30%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
@@ -967,7 +974,7 @@ footer i {
     background-size: cover;
     background-position-y: 60%;
     border-radius: 10px;
-    border: 2px solid green;
+    border: 2px solid var(--dark-green);
     opacity: 0.8;
 }
 
