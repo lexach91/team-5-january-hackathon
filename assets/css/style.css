@@ -35,6 +35,10 @@
 
 /*---------------------------------------------------Navigation Links */
 
+#hamburger {
+    display: none;
+}
+
 #menu-bar {
     width: 100%;
     height: 5em;
@@ -873,43 +877,55 @@ footer p {
 
 /*-------------------------------------------------Media Queries*/
 
-@media(max-width: 780px) {
-    .menu-items>li {
-        display: inline-block;
-    }
-    .menu-items>li a {
-        padding: 0 2px;
-        font-size: 20px
-    }
-}
 
 @media(max-width: 768px) {
 
+    header {
+        position: relative;
+        background-color: var(--light-green);
+        height: 5em;
+    }
+    
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5em;
+        height: 5em;
+        outline: none;
+        z-index: 999;
+    }
+    #menu-bar {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu-bar.open {
+        left: 0;
+    }
+
+    .menu-items {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-items>li a {
+        font-size: 2em;
+        /* padding: 1em; */
+    }
     /* hamburger menu shown at this width */
 
-    .menu-icon,
-    #tick-menu {
-        display: block;
-        visibility: visible;
-    }
-
-    #tick-menu {
-        appearance: none;
-    }
-
-    .menu-items>li {
-        display: none;
-        z-index: 10;
-        padding: 0 15px;
-    }
-
-    #tick-menu:checked~.menu-items>li {
-        display: inline-block;
-        padding: 0 10px;
-        text-align: left;
-        background-color: white;
-    }
-
+    
     .submitButtom {
         margin-left: 18px;
     }
