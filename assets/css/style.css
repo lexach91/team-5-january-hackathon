@@ -911,7 +911,6 @@ footer p {
     }
 
     .submitButtom {
-        /* border: 1px solid red !important; */
         margin-left: 18px;
     }
 
@@ -928,7 +927,6 @@ footer p {
 @media screen and (max-width: 970px) {
     .flower-row {
         grid-gap: 10px;
-        /* min-width: 80vw; */
         padding: 0;
         width: 100%;
     }
@@ -936,13 +934,13 @@ footer p {
     .flower-row .content {
         opacity: 0;
         position: absolute;
-        width: 40vw;
-        /* height: 40vw; */
+        width: 30vw;
         padding: 0 10px;
         transition: all 0.3s ease-in-out;
     }
     .grid-item:hover {
         z-index: 10;
+        transform: scale(1.05);
     }
     .grid-item:hover .content {
         opacity: 1;
@@ -983,6 +981,11 @@ footer p {
         grid-area: 1 / 1 / 2 / 2;
         width: 40vw !important;
         height: 40vw !important;
+    }
+
+    #slogan-1,
+    #slogan-2 {
+        font-size: 1.8em;
     }
 }
     
