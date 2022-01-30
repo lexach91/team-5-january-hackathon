@@ -488,11 +488,14 @@ header {
     margin-bottom: 10px;
 }
 
+.team-id-image {
+    display: flex;
+    justify-content: center;
+}
+
 .team-id-image img{
-    height: 300px;
     width: 75%;
-    margin-left: 50px;
-    margin-top: 10px;
+    border-radius: 50%;
 }
 
 .team-text {
@@ -808,7 +811,7 @@ footer i {
 #stress-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress1.jpeg') no-repeat center center;
+    background: url('../images/stress1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -822,7 +825,7 @@ footer i {
 #stress-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress2.jpg') no-repeat center center;
+    background: url('../images/stress2.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -836,7 +839,7 @@ footer i {
 #stress-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress4.jpeg') no-repeat center center;
+    background: url('../images/stress4.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -850,7 +853,7 @@ footer i {
 #stress-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress5.jpeg') no-repeat center center;
+    background: url('../images/stress5.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -866,7 +869,7 @@ footer i {
 #exercise-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise1.jpeg') no-repeat center center;
+    background: url('../images/exercise1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -880,7 +883,7 @@ footer i {
 #exercise-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise2.jpeg') no-repeat center center;
+    background: url('../images/exercise2.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -894,7 +897,7 @@ footer i {
 #exercise-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise3.jpeg') no-repeat center center;
+    background: url('../images/exercise3.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -908,7 +911,7 @@ footer i {
 #exercise-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise4.jpeg') no-repeat center center;
+    background: url('../images/exercise4.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -924,7 +927,7 @@ footer i {
 #concentration-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration1.jpeg') no-repeat center center;
+    background: url('../images/concentration1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -938,7 +941,7 @@ footer i {
 #concentration-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration3.jpeg') no-repeat center center;
+    background: url('../images/concentration3.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -952,7 +955,7 @@ footer i {
 #concentration-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration5.jpeg') no-repeat center center;
+    background: url('../images/concentration5.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -966,7 +969,7 @@ footer i {
 #concentration-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration6.jpeg') no-repeat center center;
+    background: url('../images/concentration6.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
