@@ -121,7 +121,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Load jokes/activities/quotes on page load
-  // Execute function only on index.html
+  // Execute functions on corresponding pages
+  if (window.location.pathname === "/stress.html") {
+    getRandomJoke();
+    refreshJoke.addEventListener("click", getRandomJoke);
+  }
+
   if (document.querySelector("#index")) {
     getRandomJoke();
     getRandomActivity();
@@ -129,7 +134,6 @@ document.addEventListener("DOMContentLoaded", () => {
     getRandomFact();
 
     // Refresh jokes/activities/quotes
-    refreshJoke.addEventListener("click", getRandomJoke);
     refreshActivity.addEventListener("click", getRandomActivity);
     refreshQuote.addEventListener("click", getRandomQuote);
     refreshFact.addEventListener("click", getRandomFact);
