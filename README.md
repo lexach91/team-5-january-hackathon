@@ -83,6 +83,16 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 * [GitHub](https://github.com/) as our remote repository.
 * [Visual Studio Code](https://code.visualstudio.com/) was used as local IDE and repository.
 * [Hatchful](https://hatchful.shopify.com/) was used to create our brand logo.
+* [videoplayer](https://videojs.com/) for our video plugins.
+* [hamburgers](https://jonsuh.com/hamburgers/) for the hamburger menu.
+* [smtpjs](https://smtpjs.com/) to send email.
+* [elasticemail](https://elasticemail.com/) - to host smtp server.
+* [gmail](https://www.google.com) - for mail address.
+* [jokes api](https://v2.jokeapi.dev) API for the jokes.
+* [activities api](boredapi.com) API for the ativities.
+* [quotes api](https://api.quotable.io) API for the quotes.
+* [facts api](https://uselessfacts.jsph.pl) API for the facts.
+* [video.js](https://github.com/videojs/videojs-youtube) - plugin to play youtube videos through .
 
 [Back to the top of page](#about-clover)
 <hr>
