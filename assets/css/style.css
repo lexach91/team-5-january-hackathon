@@ -445,6 +445,7 @@ footer p {
 
 .audio>p {
     padding-top: 10px;
+
 }
 
 .video {
@@ -796,6 +797,23 @@ footer p {
     .submitButtom {
         /* border: 1px solid red !important; */
         margin-left: 18px;
+    }
+
+    /*   ----------------------------       Added by Eric -----------   */
+    .box-colour {
+        margin-top: 15px;
+    }
+
+    .spacer {
+        height: 0px;
+    }
+
+    .article-heading p {
+        font-size: 18px;
+    }
+
+    .links-button {
+        height: 40px;
     }
 
 }
