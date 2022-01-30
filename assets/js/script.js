@@ -8,7 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     // disable page scrolling
     document.body.style.overflow = navBar.classList.contains("open") ? "hidden" : "auto";
   };
-  hamburger.addEventListener("click", toggleMenu);
+  if (hamburger) {
+    hamburger.addEventListener("click", toggleMenu);
+  }
+  // hamburger.addEventListener("click", toggleMenu);
   // Joke/Activity/Quote/Fact containers
   const jokeContainer = document.querySelector("#random-joke");
   const activityContainer = document.querySelector("#random-activity");

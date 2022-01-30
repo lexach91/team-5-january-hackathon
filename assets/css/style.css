@@ -213,8 +213,8 @@ li:hover {
 }
 
 #image-1 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
     background: url('../images/Picture2-modified.png') no-repeat center center;
@@ -245,8 +245,8 @@ li:hover {
 }
 
 #image-2 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
     background: url('../images/Picture1-modified.png') no-repeat center center;
@@ -278,8 +278,8 @@ li:hover {
 }
 
 #image-3 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
     background: url('../images/Picture3-modified.png') no-repeat center center;
@@ -310,8 +310,8 @@ li:hover {
 }
 
 #image-4 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
     background: url('../images/Picture4-modified.png') no-repeat center center;
