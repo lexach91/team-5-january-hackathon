@@ -531,6 +531,10 @@ footer p {
     font-weight: 500;
 }
 
+footer i {
+    color: var(--dark-green);
+}
+
 /*---------------------------------------------------Video and Audio General*/
 
 .audio {
