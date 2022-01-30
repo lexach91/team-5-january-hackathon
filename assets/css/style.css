@@ -662,6 +662,16 @@ footer p {
 
 .link-display-area a {
     color: inherit;
+    font-weight: bold;
+}
+
+.links-button p {
+    display: inline-block;
+}
+
+.links-button i {
+    width: 100%;
+    display: inline;
 }
 
 .links-button:hover {
@@ -673,6 +683,8 @@ footer p {
     background-color: var(--dark-green);
     color: white;
 }
+
+
 
 .hidden-links {
     display: none;
@@ -1096,6 +1108,12 @@ footer p {
     }
     .hidden h2 {
         font-size: 24px;
+    }
+
+    /* App links */
+
+    .app-link-container {
+        text-align: center;
     }
 }
 
