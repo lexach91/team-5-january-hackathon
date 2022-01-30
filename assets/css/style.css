@@ -487,10 +487,13 @@ header {
     margin-bottom: 10px;
 }
 
+.team-id-image {
+    display: flex;
+    justify-content: center;
+}
+
 .team-id-image img{
     width: 75%;
-    margin-left: 50px;
-    margin-top: 10px;
     border-radius: 50%;
 }
 
