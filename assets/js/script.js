@@ -153,4 +153,24 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const stressContainer = document.querySelector(".top-left");
+  const exerciseContainer = document.querySelector(".top-right");
+  const concentrationContainer = document.querySelector(".bottom-left");
+  const sleepContainer = document.querySelector(".bottom-right");
+
+  if (window.location.pathname === "/index.html") {
+    stressContainer.addEventListener("click", () => {
+      window.location.href = "stress.html";
+    });
+    exerciseContainer.addEventListener("click", () => {
+      window.location.href = "exercise.html";
+    });
+    concentrationContainer.addEventListener("click", () => {
+      window.location.href = "concentration.html";
+    });
+    sleepContainer.addEventListener("click", () => {
+      window.location.href = "sleep.html";
+    });
+  }
+
 });
