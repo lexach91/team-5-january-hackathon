@@ -35,6 +35,10 @@
 
 /*---------------------------------------------------Navigation Links */
 
+#hamburger {
+    display: none;
+}
+
 #menu-bar {
     width: 100%;
     height: 5em;
@@ -873,45 +877,56 @@ footer p {
 
 /*-------------------------------------------------Media Queries*/
 
-@media(max-width: 780px) {
-    .menu-items>li {
-        display: inline-block;
-    }
-    .menu-items>li a {
-        padding: 0 2px;
-        font-size: 20px
-    }
-}
 
 @media(max-width: 768px) {
 
+    header {
+        position: relative;
+        background-color: var(--light-green);
+        height: 5em;
+    }
+    
+    #hamburger {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5em;
+        height: 5em;
+        outline: none;
+        z-index: 999;
+    }
+    #menu-bar {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        transition: all 0.3s ease-in-out;
+    }
+    #menu-bar.open {
+        left: 0;
+    }
+
+    .menu-items {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-items>li a {
+        font-size: 2em;
+        /* padding: 1em; */
+    }
     /* hamburger menu shown at this width */
 
-    .menu-icon,
-    #tick-menu {
-        display: block;
-        visibility: visible;
-    }
-
-    #tick-menu {
-        appearance: none;
-    }
-
-    .menu-items>li {
-        display: none;
-        z-index: 10;
-        padding: 0 15px;
-    }
-
-    #tick-menu:checked~.menu-items>li {
-        display: inline-block;
-        padding: 0 10px;
-        text-align: left;
-        background-color: white;
-    }
-
+    
     .submitButtom {
-        /* border: 1px solid red !important; */
         margin-left: 18px;
     }
 
@@ -928,12 +943,45 @@ footer p {
 @media screen and (max-width: 970px) {
     .flower-row {
         grid-gap: 10px;
-        min-width: 80vw;
         padding: 0;
+        width: 100%;
     }
 
     .flower-row .content {
-        display: none;
+        opacity: 0;
+        position: absolute;
+        width: 30vw;
+        padding: 0 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .grid-item:hover {
+        z-index: 10;
+        transform: scale(1.05);
+    }
+    .grid-item:hover .content {
+        opacity: 1;
+    }
+
+    .grid-item:hover .heart-link {
+        opacity: 0.2;
+    }
+
+    .content-1 {
+        left: 0;
+    }
+
+    .content-2 {
+        right: 0;
+    }
+
+    .content-3 {
+        left: 0;
+        bottom: 0;
+    }
+
+    .content-4 {
+        right: 0;
+        bottom: 0;
     }
 
     .grid-item {
@@ -943,11 +991,17 @@ footer p {
         width: fit-content;
         padding: 1em;
         height: fit-content;
+        position: relative;
     }
     .heart-link {
         grid-area: 1 / 1 / 2 / 2;
         width: 40vw !important;
         height: 40vw !important;
+    }
+
+    #slogan-1,
+    #slogan-2 {
+        font-size: 1.8em;
     }
 }
     
