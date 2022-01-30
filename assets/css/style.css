@@ -441,6 +441,47 @@ header {
     margin-top: 10px;
 }
 
+.green-spacer {
+    height: 50px;
+    background-color: #c1e5c182;
+}
+
+/* ---------------------------------------------------About Us*/
+
+.arrow-right {
+    text-align: left;
+}
+
+.arrow-left {
+    text-align: right;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us-positioning {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* -------------------------------------------------Meet the Team */
+
+.meet-team-header {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.team-id-image img{
+    height: 300px;
+    width: 75%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.team-text p {
+    padding-top: 20px;
+}
 
 /* ----------------------------------------------------Footer*/
 
