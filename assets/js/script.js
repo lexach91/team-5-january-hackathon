@@ -1,5 +1,14 @@
 /* jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", () => {
+  const navBar = document.querySelector("#menu-bar");
+  const hamburger = document.querySelector("#hamburger");
+  const toggleMenu = () => {
+    navBar.classList.toggle("open");
+    hamburger.classList.toggle("is-active");
+    // disable page scrolling
+    document.body.style.overflow = navBar.classList.contains("open") ? "hidden" : "auto";
+  };
+  hamburger.addEventListener("click", toggleMenu);
   // Joke/Activity/Quote/Fact containers
   const jokeContainer = document.querySelector("#random-joke");
   const activityContainer = document.querySelector("#random-activity");
