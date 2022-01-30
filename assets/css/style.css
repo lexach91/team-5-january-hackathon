@@ -1,5 +1,6 @@
 :root {
     --light-green: #CBE1CB;
+    --light-green-transparent: rgba(203, 225, 203, 0.8);
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
     --comp-col: #EE6C4D;
@@ -35,18 +36,18 @@
 
 /*---------------------------------------------------Navigation Links */
 
+#hamburger {
+    display: none;
+}
+
 #menu-bar {
     width: 100%;
     height: 5em;
-    /* margin-bottom: 10px; */
     background-color: #cbe1cb;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
 }
 
 .menu-icon,
@@ -84,6 +85,11 @@
 
 li:hover {
     transform: translateY(-5px) scale(1.05);
+}
+
+.menu-logo {
+    height: 120px;
+    width: 120px;
 }
 
 .newsletter {
@@ -198,7 +204,8 @@ li:hover {
     padding: 1em;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 30vh;
+    height: 100%;
+    min-height: 30vh;
     transition: all 0.3s ease-in-out;
 }
 
@@ -207,11 +214,11 @@ li:hover {
 }
 
 #image-1 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture2-modified.png') no-repeat center center;
+    background: url('../images/Picture2-modified.webp') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-end;
@@ -239,11 +246,11 @@ li:hover {
 }
 
 #image-2 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture1-modified.png') no-repeat center center;
+    background: url('../images/Picture1-modified.webp') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-start;
@@ -272,11 +279,11 @@ li:hover {
 }
 
 #image-3 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture3-modified.png') no-repeat center center;
+    background: url('../images/Picture3-modified.webp') no-repeat top center;
     background-size: contain;
     align-self: flex-start;
     justify-self: flex-end;
@@ -304,11 +311,11 @@ li:hover {
 }
 
 #image-4 {
-    height: 15vw;
-    width: 15vw;
+    height: 100%;
+    width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture4-modified.png') no-repeat center center;
+    background: url('../images/Picture4-modified.webp') no-repeat top center;
     background-size: contain;
     grid-area: 1 / 1 / 2 / 2;
 }
@@ -524,6 +531,10 @@ footer p {
     font-weight: 500;
 }
 
+footer i {
+    color: var(--dark-green);
+}
+
 /*---------------------------------------------------Video and Audio General*/
 
 .audio {
@@ -536,6 +547,7 @@ footer p {
 
 .audio>p {
     padding-top: 10px;
+
 }
 
 .video {
@@ -654,16 +666,29 @@ footer p {
 
 .link-display-area a {
     color: inherit;
+    font-weight: bold;
+}
+
+.links-button p {
+    display: inline-block;
+}
+
+.links-button i {
+    width: 100%;
+    display: inline;
 }
 
 .links-button:hover {
     cursor: pointer;
-    transform: translateY(-5px) scale(1.05);
+    transform: translateY(-5px) scaleY(1.05) scaleX(1.01);
 }
 
 .active-links-button {
-    background-color: #144fad;
+    background-color: var(--dark-green);
+    color: white;
 }
+
+
 
 .hidden-links {
     display: none;
@@ -680,7 +705,7 @@ footer p {
     bottom: 0;
     width: 70%;
     left: 15%;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid var(--dark-green);
 }
 
 .app-link:last-of-type::before {
@@ -1007,6 +1032,10 @@ footer p {
         padding: 1em;
         height: fit-content;
     }
+    .grid-item:hover .content {
+        display: block;
+    }
+
     .heart-link {
         grid-area: 1 / 1 / 2 / 2;
         width: 40vw !important;
@@ -1014,41 +1043,62 @@ footer p {
     }
 }
 
-@media(max-width: 780px) {
-    .menu-items>li {
-        display: inline-block;
-    }
-    .menu-items>li a {
-        padding: 0 2px;
-        font-size: 20px
-    }
-}
 
 @media(max-width: 768px) {
 
-    /* hamburger menu shown at this width */
-
-    .menu-icon,
-    #tick-menu {
+    header {
+        position: relative;
+        background-color: var(--light-green);
+        height: 5em;
+    }
+    
+    #hamburger {
         display: block;
-        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5em;
+        height: 5em;
+        outline: none;
+        z-index: 999;
     }
-    #tick-menu {
-        appearance: none;
+  
+    #menu-bar {
+        background-color: var(--light-green-transparent);
+        backdrop-filter: blur(5px);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: -100vw;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        transition: all 0.3s ease-in-out;
     }
-    .menu-items>li {
-        display: none;
-        z-index: 10;
-        padding: 0 15px;
+    #menu-bar.open {
+        left: 0;
     }
-    #tick-menu:checked~.menu-items>li {
-        display: inline-block;
-        padding: 0 10px;
-        text-align: left;
-        background-color: white;
+
+    .menu-items {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+    .menu-items>li a {
+        font-size: 2em;
+        /* padding: 1em; */
+    }
+
+    .menu-logo {
+        height: 200px;
+        width: 200px;
+    }
+
     .submitButtom {
-        /* border: 1px solid red !important; */
         margin-left: 18px;
     }
     .hidden-text > h4 {
@@ -1063,6 +1113,12 @@ footer p {
     .hidden h2 {
         font-size: 24px;
     }
+
+    /* App links */
+
+    .app-link-container {
+        text-align: center;
+    }
 }
 
 @media(max-width: 485px) {
@@ -1075,6 +1131,81 @@ footer p {
     .hidden-text li {
         font-size: 13px;
     }
+}
+
+@media screen and (max-width: 970px) {
+    .flower-row {
+        grid-gap: 10px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .flower-row .content {
+        opacity: 0;
+        position: absolute;
+        width: 30vw;
+        padding: 0 10px;
+        transition: all 0.3s ease-in-out;
+    }
+    .grid-item:hover {
+        z-index: 10;
+        transform: scale(1.05);
+    }
+    .grid-item:hover .content {
+        opacity: 1;
+    }
+
+    .grid-item:hover .heart-link {
+        opacity: 0.2;
+    }
+
+    .content-1 {
+        left: 0;
+    }
+
+
+    /*   ----------------------------       Added by Eric -----------   */
+    .box-colour {
+        margin-top: 15px;
+    }
+
+    .spacer {
+        height: 0px;
+    }
+
+    .article-heading p {
+        font-size: 18px;
+    }
+
+    .links-button {
+        height: 40px;
+    }
+
+
+
+    .content-2 {
+        right: 0;
+    }
+
+    .content-3 {
+        left: 0;
+        bottom: 0;
+    }
+
+    .content-4 {
+        right: 0;
+        bottom: 0;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0px;
+        width: fit-content;
+        padding: 1em;
+        height: fit-content;
+        position: relative;
+    }
     .hidden h2 {
         font-size: 22px;
     }
@@ -1082,8 +1213,14 @@ footer p {
         padding-left: 8px;
         padding-right: 8px;
     }
+  
     .article-heading-hidden {
         font-size: 20px;
         height: 35px;
+    }
+
+    #slogan-1,
+    #slogan-2 {
+        font-size: 1.8em;
     }
 }
