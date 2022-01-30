@@ -94,6 +94,32 @@ document.addEventListener("DOMContentLoaded", () => {
           });
   };
 
+  // Function to send an email to the user
+  const submitBtn = document.querySelector("#subscribe");
+  const email = document.querySelector("#email");
+  const sendEmail = (e) => {
+    e.preventDefault();
+    let address = email.value;
+    Email.send({
+      SecureToken: "200c1ed5-0689-48c0-8be7-a8fea273cc27",
+      To: address,
+      From: "clover.mental.help@gmail.com",
+      Subject: "Clover Mental Health",
+      Body: `<h1>Thank you for subscribing to our newsletter</h1>
+      <p>We will keep you updated with our latest news and updates</p>
+      <p>You can access our website at <a href="https://lexach91.github.io/team-5-january-hackathon/">Clover</a></p>`,
+    }).then((message) => {
+      if (message === "OK") {
+        alert("Subscribed successfully");
+      } else {
+        alert("Some error occurred");
+      }
+    });
+  };
+  if (submitBtn) {
+    submitBtn.addEventListener("click", sendEmail);
+  }
+
   // Load jokes/activities/quotes on page load
   // Execute function only on index.html
   if (document.querySelector("#index")) {

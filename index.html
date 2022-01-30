@@ -10,15 +10,16 @@
     <meta name="description"
         content="Clover offers its customers the opportunity to relax, unwind and focus on their mental health">
 
+    <link href="favicon.ico" type="image/x-icon" rel="icon">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/hamburgers.min.css">
     <title>Clover</title>
 </head>
 
-<body id="index">
+<body>
     <header class="container-fluid p-0">
         <div class="col-12 center-text heading">
-            <a href="index.html"><span>Clover</span></a>
+            <a href="index.html" aria-label="Click here to go to the home page"><span>Clover</span></a>
         </div>
         <button id="hamburger" class="hamburger hamburger--elastic-r" type="button">
             <span class="hamburger-box">
@@ -27,6 +28,7 @@
         </button>
         <nav id="menu-bar">
             <ul class="menu-items">
+                <li><a href="index.html" aria-label="Click here to go to the home page"><img class="menu-logo" src="assets/images/logo-no-text/logo_transparent.png" alt="Clover brand logo"></a></li>
               <li>
                 <a href="stress.html" aria-label="Click here to go our stress page">Stress</a>
               </li>
@@ -94,11 +96,11 @@
                     <div class="col-sm-12 col-md-4 form-group"></div>
                     <div class="col-sm-12 col-md-4 form-group">
 
-                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
                     </div>
 
                     <div class="form-group submitButtom">
-                        <button type="submit" class="btn btn-success">
+                        <button id="subscribe" type="submit" class="btn btn-success">
                             <i class="fas fa-arrow-alt-circle-right"></i>
 
                             </i></button>
@@ -144,6 +146,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </body>

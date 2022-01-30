@@ -91,6 +91,11 @@ li:hover {
     transform: translateY(-5px) scale(1.05);
 }
 
+.menu-logo {
+    height: 120px;
+    width: 120px;
+}
+
 .newsletter {
     background-color: #c1e5c182;
     margin: 20px 0;
@@ -203,8 +208,8 @@ li:hover {
     padding: 1em;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    height: 30vh;
-    min-height: fit-content;
+    height: 100%;
+    min-height: 30vh;
     transition: all 0.3s ease-in-out;
 }
 
@@ -217,7 +222,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture2-modified.png') no-repeat center center;
+    background: url('../images/Picture2-modified.webp') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-end;
@@ -249,7 +254,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture1-modified.png') no-repeat center center;
+    background: url('../images/Picture1-modified.webp') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-start;
@@ -282,7 +287,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture3-modified.png') no-repeat center center;
+    background: url('../images/Picture3-modified.webp') no-repeat top center;
     background-size: contain;
     align-self: flex-start;
     justify-self: flex-end;
@@ -314,7 +319,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture4-modified.png') no-repeat center center;
+    background: url('../images/Picture4-modified.webp') no-repeat top center;
     background-size: contain;
     grid-area: 1 / 1 / 2 / 2;
 }
@@ -665,11 +670,12 @@ footer p {
 
 .links-button:hover {
     cursor: pointer;
-    transform: translateY(-5px) scale(1.05);
+    transform: translateY(-5px) scaleY(1.05) scaleX(1.01);
 }
 
 .active-links-button {
-    background-color: #144fad;
+    background-color: var(--dark-green);
+    color: white;
 }
 
 .hidden-links {
@@ -687,7 +693,7 @@ footer p {
     bottom: 0;
     width: 70%;
     left: 15%;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid var(--dark-green);
 }
 
 .app-link:last-of-type::before {
@@ -1014,6 +1020,10 @@ footer p {
         padding: 1em;
         height: fit-content;
     }
+    .grid-item:hover .content {
+        display: block;
+    }
+
     .heart-link {
         grid-area: 1 / 1 / 2 / 2;
         width: 40vw !important;
@@ -1070,7 +1080,11 @@ footer p {
         font-size: 2em;
         /* padding: 1em; */
     }
-    /* hamburger menu shown at this width */
+
+    .menu-logo {
+        height: 200px;
+        width: 200px;
+    }
 
     .submitButtom {
         margin-left: 18px;
