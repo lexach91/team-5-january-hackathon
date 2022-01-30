@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/">Clover</a></h1>
+<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/"><img src="assets/images/logo/logo.png" height="400px" width="400px"></img></a></h1>
 
 <details>
 <summary>Table of Contents</summary>
