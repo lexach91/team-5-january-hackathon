@@ -91,6 +91,11 @@ li:hover {
     transform: translateY(-5px) scale(1.05);
 }
 
+.menu-logo {
+    height: 120px;
+    width: 120px;
+}
+
 .newsletter {
     background-color: #c1e5c182;
     margin: 20px 0;
@@ -1075,7 +1080,11 @@ footer p {
         font-size: 2em;
         /* padding: 1em; */
     }
-    /* hamburger menu shown at this width */
+
+    .menu-logo {
+        height: 200px;
+        width: 200px;
+    }
 
     .submitButtom {
         margin-left: 18px;
