@@ -559,6 +559,9 @@ footer p {
     height: 200px;
 }
 
+.small-hidden {
+    display: none;
+}
 
 .hidden {
     background-color: rgba(241, 253, 238, 0.92);
@@ -567,12 +570,69 @@ footer p {
     display: none;
 }
 
-.hidden>p {
-    padding-top: 15px;
+.article-text-position {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.hidden>h2 {
-    padding-top: 15px;
+.hidden-text > p {
+    text-align: left;
+    font-size: 17px;
+}
+
+.hidden-text > h4 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: #43682A;
+}
+
+.hidden-text h4 i {
+    padding-left: 5px;
+    color: #43682A;
+}
+
+.hidden-text li {
+    text-align: left;
+    font-size: 17px;
+}
+
+.hidden-text ul {
+    padding-left: 15px;
+}
+
+.hidden > h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.article-heading-hidden {
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 23px;
+}
+
+.article-heading-hidden i {
+    color: #43682A;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.article-heading-hidden a {
+    text-decoration: none;
+    color: black;
+}
+
+.article-heading-hidden:hover {
+    cursor: pointer;
+    border: solid 2px #43682A;
 }
 
 .article:hover .hidden {
@@ -877,6 +937,87 @@ footer p {
 
 
 /*-------------------------------------------------Media Queries*/
+@media (max-width: 1570px) {
+    .hidden-text > p {
+        font-size: 15px;
+    }
+    .hidden-text > h4 {
+        font-size: 16px;
+    }
+    .article-heading-hidden {
+        font-size: 24px;
+    }
+    .hidden-text li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .article-heading-hidden {
+        margin-top: 0;
+        font-size: 20px;
+        height: 40px;
+    }
+    .article-heading-hidden i {
+        margin-top: 5px;
+    }
+    .small-hidden {
+        display: block;
+    }
+    .large-hidden {
+        display: none;
+    }
+    .article-text-position {
+        padding-top: 10px;
+    }
+    .hidden-text > h4 {
+        padding-bottom: 2px;
+        font-size: 15px;
+    }
+    .hidden-text > p {
+        font-size: 13px;
+    }
+    .hidden-text li {
+        font-size: 13px;
+    }
+    .hidden h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .flower-row {
+        grid-gap: 15px;
+        min-width: 70%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .flower-row {
+        grid-gap: 10px;
+        min-width: 80vw;
+        padding: 0;
+    }
+
+    .flower-row .content {
+        display: none;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0px;
+        width: fit-content;
+        padding: 1em;
+        height: fit-content;
+    }
+    .heart-link {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 40vw !important;
+        height: 40vw !important;
+    }
+}
 
 
 @media(max-width: 768px) {
@@ -897,6 +1038,7 @@ footer p {
         outline: none;
         z-index: 999;
     }
+  
     #menu-bar {
         background-color: var(--light-green-transparent);
         backdrop-filter: blur(5px);
@@ -928,20 +1070,32 @@ footer p {
     }
     /* hamburger menu shown at this width */
 
-    
     .submitButtom {
         margin-left: 18px;
     }
-
-}
-
-@media screen and (max-width: 1050px) {
-    .flower-row {
-        grid-gap: 15px;
-        min-width: 70%;
-        padding: 20px;
+    .hidden-text > h4 {
+        font-size: 18px;
+    }
+    .hidden-text > p {
+        font-size: 15px;
+    }
+    .hidden-text li {
+        font-size: 15px;
+    }
+    .hidden h2 {
+        font-size: 24px;
     }
 }
+
+@media(max-width: 485px) {
+    .hidden-text > h4 {
+        font-size: 16px;
+    }
+    .hidden-text > p {
+        font-size: 13px;
+    }
+    .hidden-text li {
+        font-size: 13px;
 
 @media screen and (max-width: 970px) {
     .flower-row {
@@ -996,15 +1150,22 @@ footer p {
         height: fit-content;
         position: relative;
     }
-    .heart-link {
-        grid-area: 1 / 1 / 2 / 2;
-        width: 40vw !important;
-        height: 40vw !important;
+    .hidden h2 {
+        font-size: 22px;
     }
+    .article-text-position {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+  
+    .article-heading-hidden {
+        font-size: 20px;
+        height: 35px;
 
     #slogan-1,
     #slogan-2 {
         font-size: 1.8em;
     }
 }
+
     
