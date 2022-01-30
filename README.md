@@ -1,9 +1,15 @@
-# Logo
+<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/">Clover</a></h1>
 
-# Table of Contents
+<details>
+<summary>Table of Contents</summary>
+<br>
+
+* [About Clover](#about-clover)
 * [UX](#ux)
     * [User Stories](#user-stories)
 * [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features left to Implement](#features-left-to-implement)
 * [Testing](#testing)
     * [Testing the features](#testing-the-features)
     * [Responsive Testing](#responsive-testing)
@@ -22,47 +28,127 @@
 * [Technologies Used](#technologies-used)
 * [Credits](#credits)
 
+<br>
+</details>
+
+<hr>
+
+(Image of responsive layout on screens or main page)
+# About Clover
+
+Clover was created with users working from home in mind. With the global epidemic of the previous two years, things have shifted dramatically. We want to assist folks who are having trouble working from home. The website has a lot of resources for people to look over in order to get relevant information. It's critical that people realize they're not fighting alone in whatever battle they're now engaged in. We hope to generate participation from you and look forward to hearing from you.
+
+Heres a link to the [website](https://lexach91.github.io/team-5-january-hackathon/).
+
 
 <hr>
 
 # UX
 
 ## User Stories
-(contents here)
+
+* As a user, I would like to be able to browse the website.
+* As a user, I would like to know more about Clover.
+* As a user, I would like to sign up for a newsletter.
+* As a user, I would like to find Clover on other websites.
+* As a user, I need to be able to contact Clover.
+* As a user, it is important I understand how to use the website.
+
+
 ### (sub headings, UX planes, strategy, scope, structure, skeleton, surface)
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Features
-(contents here)
+## Existing Features
 
-[Back to the top of page](#table-of-contents)
+* Home page
+* Main image
+* 4 internal pages
+* Newsletter
+* sign up form
+
+## Features left to implement
+
+[Back to the top of page](#about-clover)
 <hr>
 
 # Technologies Used
-(contents here)
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to structure webpages.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) used for styling the website.
+* [JavaScript](https://www.javascript.com/) was used to add interative content.
+* [Git](https://git-scm.com/) was our version control system.
+* [GitPod](https://www.gitpod.io/) was used as local IDE and repository.
+* [GitHub](https://github.com/) as our remote repository.
+* [Visual Studio Code](https://code.visualstudio.com/) was used as local IDE and repository.
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Testing
 ## Testing the Features
-(contents here)
+
+### Home page
+
+- Expected results:
+- Actual results:
+- User Stories fufilled:
+ 
+### Main image
+
+- Expected results:
+- Actual results:
+- User Stories fufilled:
+ 
+### 4 internal pages
+
+- Expected results:
+- Actual results:
+- User Stories fufilled:
+ 
+### Newsletter
+
+- Expected results:
+- Actual results:
+- User Stories fufilled:
+
+### sign up form
+
+- Expected results:
+- Actual results:
+- User Stories fufilled:
 
 ## Responsive Testing
-(contents here)
+This website was built as a desktop first solution with adjustments then made for smaller devices.
+
+Below is a table we used to keep track of adjustments and to test adjustments made. 
+
+- A = Adjusted
+- n/a = Not affected
+- X = Not included
+
+|Features - Widths| 1920px | 1440px | 1024px | 768px | 425px |375px | 320px |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Navigation bar ||||||||
+| Home page ||||||||
+| Main images||||||||
+| About ||||||||
+| Stress page||||||||
+| Exercise page||||||||
+| Concentration page||||||||
+| Sleep page||||||||
 
 ## Validator Testing
-(contents here)
-
 ### HTML5
-(contents here)
+The HTML was tested using the [W3C validator](https://validator.w3.org/). To do this we put the URL of each webpage into the validator.
 
-### CSS
-(contents here)
+### CSS3
+The CSS was tested using the [W3C validator](https://validator.w3.org/). We did a direct input for our CSS file.
 
 ### Lighthouse
+To test our websites performance, accessibility, best practices and SEO we used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) resource [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+
 #### Performance
 (contents here)
 
@@ -75,7 +161,7 @@
 #### Search Engine Optimization
 (contents here)
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Deployment
@@ -135,9 +221,9 @@ Below is a list of steps to help you clone this repository:
 
 Once steps 1 - 7 are completed you will now have a clone of this repository on your local machine to use.
 
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
 <hr>
 
 # Credits
 (contents here)
-[Back to the top of page](#table-of-contents)
+[Back to the top of page](#about-clover)
