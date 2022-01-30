@@ -93,7 +93,7 @@ li:hover {
 }
 
 .newsletter {
-    background-color: #c1e5c182;
+    background-color: #dff2df;
     margin: 20px 0;
 }
 
@@ -458,6 +458,7 @@ header {
 
 .about-us {
     text-align: center;
+    font-size: 22px;
 }
 
 .about-us-positioning {
@@ -481,6 +482,22 @@ header {
 
 .team-text p {
     padding-top: 20px;
+}
+
+/* ----------------------------------------------------Ratings*/
+
+.ratings-icon {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.rating-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size: 30px;
 }
 
 /* ----------------------------------------------------Footer*/
@@ -665,8 +682,6 @@ footer i {
     color: white;
 }
 
-
-
 .hidden-links {
     display: none;
 }
@@ -693,11 +708,15 @@ footer i {
 
 .support {
     height: 200px;
+    padding-top: 50px;
 }
 
 /*-----------------------------------------------Support Area*/
 
-
+.support {
+    height: 100px;
+    background-color: #c1e5c182;
+}
 
 /*-----------------------------------------------Sleep Articles*/
 
