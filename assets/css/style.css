@@ -216,6 +216,7 @@ li:hover {
     min-height: 30vh;
     transition: all 0.3s ease-in-out;
     background-color: var(--light-green);
+    cursor: pointer;
 }
 
 .grid-item:hover {
