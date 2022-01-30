@@ -541,6 +541,7 @@ footer p {
 
 .audio>p {
     padding-top: 10px;
+
 }
 
 .video {
@@ -1127,6 +1128,26 @@ footer p {
         left: 0;
     }
 
+
+    /*   ----------------------------       Added by Eric -----------   */
+    .box-colour {
+        margin-top: 15px;
+    }
+
+    .spacer {
+        height: 0px;
+    }
+
+    .article-heading p {
+        font-size: 18px;
+    }
+
+    .links-button {
+        height: 40px;
+    }
+
+}
+
     .content-2 {
         right: 0;
     }
@@ -1168,4 +1189,4 @@ footer p {
     }
 }
 
-    
+
