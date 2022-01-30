@@ -1017,7 +1017,7 @@ footer p {
     }
 
     .flower-row .content {
-        display: none;
+        opacity: 0;
     }
 
     .grid-item {
@@ -1029,7 +1029,7 @@ footer p {
         height: fit-content;
     }
     .grid-item:hover .content {
-        display: block;
+        opacity: 1;
     }
 
     .heart-link {
