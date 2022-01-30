@@ -140,6 +140,10 @@ document.addEventListener("DOMContentLoaded", () => {
       $(activeLinksAreaSelector).removeClass('hidden-links');
       $('.links-button').removeClass('active-links-button');
       $(this).addClass('active-links-button');
+      $('.links-button').children('i').removeClass('fa-arrow-alt-circle-right');
+      $('.links-button').children('i').addClass('fa-arrow-alt-circle-down');
+      $(this).children('i').removeClass('fa-arrow-alt-circle-down');
+      $(this).children('i').addClass('fa-arrow-alt-circle-right');
     });
   }
 
