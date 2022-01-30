@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+body {
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+
 :root {
     --light-green: #CBE1CB;
     --light-green-transparent: rgba(203, 225, 203, 0.8);
@@ -207,6 +213,7 @@ li:hover {
     height: 100%;
     min-height: 30vh;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .grid-item:hover {
@@ -661,7 +668,7 @@ footer i {
 }
 
 .link-display-area {
-    height: 230px;
+    padding-bottom: 14px;
 }
 
 .link-display-area a {
