@@ -667,7 +667,7 @@ footer i {
 }
 
 .link-display-area {
-    height: 230px;
+    padding-bottom: 14px;
 }
 
 .link-display-area a {
