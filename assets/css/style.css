@@ -116,33 +116,29 @@ li:hover {
 /* Slogan */
 
 #slogan-1 {
-    display: inline-block;
     opacity: 0;
     font-size: 3em;
-    position: relative;
-    top: 20px;
-    height: 0;
-    left: 10%;
     animation-name: appear-1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
+    padding-left: 30px;
 }
 
 #slogan-2 {
-    /* display: inline-block; */
     opacity: 0;
     font-size: 3em;
-    text-align: end;
-    position: relative;
-    top: -20px;
+    text-align: right;
+    /* position: relative; */
+    /* top: -20px; */
     /* right: 10%; */
     animation-name: appear-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
+    padding-right: 30px;
 }
 
 
@@ -177,7 +173,8 @@ li:hover {
     }
 
     100% {
-        opacity: 1;
+    /* display: inline-block; */
+    opacity: 1;
     }
 }
 
@@ -197,7 +194,15 @@ li:hover {
     padding: 40px;
 }
 
-.heart-link:hover {
+.grid-item {
+    padding: 1em;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    height: 30vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.grid-item:hover {
     transform: scale(1.1);
 }
 
@@ -911,3 +916,38 @@ footer p {
     }
 
 }
+
+@media screen and (max-width: 1050px) {
+    .flower-row {
+        grid-gap: 15px;
+        min-width: 70%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .flower-row {
+        grid-gap: 10px;
+        min-width: 80vw;
+        padding: 0;
+    }
+
+    .flower-row .content {
+        display: none;
+    }
+
+    .grid-item {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 0px;
+        width: fit-content;
+        padding: 1em;
+        height: fit-content;
+    }
+    .heart-link {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 40vw !important;
+        height: 40vw !important;
+    }
+}
+    
