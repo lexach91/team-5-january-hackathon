@@ -126,18 +126,20 @@ document.addEventListener("DOMContentLoaded", () => {
     getRandomJoke();
     refreshJoke.addEventListener("click", getRandomJoke);
   }
-
-  if (document.querySelector("#index")) {
-    getRandomJoke();
+  if (window.location.pathname === "/exercise.html") {
     getRandomActivity();
-    getRandomQuote();
-    getRandomFact();
-
-    // Refresh jokes/activities/quotes
     refreshActivity.addEventListener("click", getRandomActivity);
+  }
+  if (window.location.pathname === "/concentration.html") {
+    getRandomQuote();
     refreshQuote.addEventListener("click", getRandomQuote);
+  }
+  if (window.location.pathname === "/sleep.html") {
+    getRandomFact();
     refreshFact.addEventListener("click", getRandomFact);
-  } else {
+  }
+
+  if (window.location.pathname !== "/index.html") {
     $('.links-button').click(function() {
       let activeLinksAreaSelector = '.' + this.id + '-links';
       $('.link-display-area').addClass('hidden-links');
