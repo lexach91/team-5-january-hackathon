@@ -371,6 +371,7 @@ li:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 5px;
+    position: relative;
 }
 
 .refresh-icon {
@@ -384,43 +385,16 @@ li:hover {
 }
 
 
-.point-right,
-.point-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-    width: 50%;
-    height: 100%;
-    background-color: green;
-    min-height: 200px;
-    position: relative;
-}
-
-.point-right:before {
+.api-header:before {
     content: '';
     position: absolute;
     background: url('../images/arrow.png') no-repeat center center;
     background-size: contain;
     width: 100px;
     height: 100px;
-    right: -50px;
-    bottom: -20px;
-    transform: rotate(90deg);
-    z-index: 2;
-}
-
-.point-left::before {
-    content: '';
-    position: absolute;
-    background: url('../images/arrow.png') no-repeat center center;
-    background-size: contain;
-    width: 100px;
-    height: 100px;
-    left: -50px;
-    top: -50px;
-    transform: rotate(0deg) scaleX(-1);
+    right: -60px;
+    top: -20px;
+    transform: rotate(45deg);
     z-index: 2;
 }
 
