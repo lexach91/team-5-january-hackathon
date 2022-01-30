@@ -97,8 +97,8 @@ li:hover {
 }
 
 .menu-logo {
-    height: 120px;
-    width: 120px;
+    height: 50px;
+    width: 50px;
 }
 
 .newsletter {
@@ -1137,11 +1137,6 @@ footer i {
     .menu-items>li a {
         font-size: 2em;
         /* padding: 1em; */
-    }
-
-    .menu-logo {
-        height: 200px;
-        width: 200px;
     }
 
     .submitButtom {
