@@ -665,11 +665,12 @@ footer p {
 
 .links-button:hover {
     cursor: pointer;
-    transform: translateY(-5px) scale(1.05);
+    transform: translateY(-5px) scaleY(1.05) scaleX(1.01);
 }
 
 .active-links-button {
-    background-color: #144fad;
+    background-color: var(--dark-green);
+    color: white;
 }
 
 .hidden-links {
@@ -687,7 +688,7 @@ footer p {
     bottom: 0;
     width: 70%;
     left: 15%;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid var(--dark-green);
 }
 
 .app-link:last-of-type::before {
