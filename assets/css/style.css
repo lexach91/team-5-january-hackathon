@@ -1,5 +1,6 @@
 :root {
     --light-green: #CBE1CB;
+    --light-green-transparent: rgba(203, 225, 203, 0.8);
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
     --comp-col: #EE6C4D;
@@ -897,6 +898,8 @@ footer p {
         z-index: 999;
     }
     #menu-bar {
+        background-color: var(--light-green-transparent);
+        backdrop-filter: blur(5px);
         width: 100vw;
         height: 100vh;
         position: fixed;
