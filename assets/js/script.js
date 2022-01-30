@@ -121,19 +121,25 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Load jokes/activities/quotes on page load
-  // Execute function only on index.html
-  if (document.querySelector("#index")) {
+  // Execute functions on corresponding pages
+  if (window.location.pathname === "/stress.html") {
     getRandomJoke();
-    getRandomActivity();
-    getRandomQuote();
-    getRandomFact();
-
-    // Refresh jokes/activities/quotes
     refreshJoke.addEventListener("click", getRandomJoke);
+  }
+  if (window.location.pathname === "/exercise.html") {
+    getRandomActivity();
     refreshActivity.addEventListener("click", getRandomActivity);
+  }
+  if (window.location.pathname === "/concentration.html") {
+    getRandomQuote();
     refreshQuote.addEventListener("click", getRandomQuote);
+  }
+  if (window.location.pathname === "/sleep.html") {
+    getRandomFact();
     refreshFact.addEventListener("click", getRandomFact);
-  } else {
+  }
+
+  if (window.location.pathname !== "/index.html") {
     $('.links-button').click(function() {
       let activeLinksAreaSelector = '.' + this.id + '-links';
       $('.link-display-area').addClass('hidden-links');
