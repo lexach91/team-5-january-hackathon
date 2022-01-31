@@ -232,7 +232,8 @@ Once steps 1 - 7 are completed you will now have a clone of this repository on y
 
 # The Team
 
-## [Aleksei Konovalov](https://github.com/lexach91):  
+## [Aleksei Konovalov](https://github.com/lexach91):
+This was my second Hackathon wit Code Institute. I could've not even imagine before that a team can be so collaborative. That was a really great experience for me. Thank you team!
 
 ## [Sophie Batten](https://github.com/sophiebatten123):  
 
