@@ -12,7 +12,6 @@ body {
     --light-green-transparent: rgba(203, 225, 203, 0.8);
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
-
     --comp-col: #C497AB;
     --dark-comp-col:#90516D;
     --black:#070D07;
@@ -23,27 +22,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-/*---------------------------------------------------Temporary*/
-.jokes {
-    background-color: #c1e5c182;
-    margin: 5px 0;
-    height: 400px;
-}
-
-
-.bg {
-    margin: 5px 0;
-}
-
-.bg>p {
-    padding-top: 250px;
-}
-
-.box-colour>p {
-    font-size: 20px;
 }
 
 /*---------------------------------------------------Navigation Links */
@@ -166,9 +144,6 @@ li:hover {
     opacity: 0;
     font-size: 2.5em;
     text-align: right;
-    /* position: relative; */
-    /* top: -20px; */
-    /* right: 10%; */
     animation-name: appear-2;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -178,8 +153,6 @@ li:hover {
     padding-bottom: 10px;
     padding-top: 10px;
 }
-
-
 
 @keyframes appear-1 {
     0% {
@@ -211,7 +184,6 @@ li:hover {
     }
 
     100% {
-        /* display: inline-block; */
         opacity: 1;
     }
 }
@@ -392,7 +364,6 @@ li:hover {
     min-height: 200px;
     position: relative;
     position: relative;
-    /* padding-bottom: 40px; */
 }
 
 .api-header,
@@ -441,8 +412,6 @@ li:hover {
 /* ----------------------------------------------------General*/
 
 header {
-    /* border-bottom: solid 2px green;
-    margin-bottom: 10px; */
     background-color: white;
 }
 
@@ -641,12 +610,15 @@ footer i {
 }
 
 .video {
-    /* height: 410px; */
     padding: 10px;
 }
 
 .box-colour {
     margin: 5px 0;
+}
+
+.box-colour>p {
+    font-size: 20px;
 }
 
 /*---------------------------------------------------Articles*/
@@ -1186,7 +1158,6 @@ h4 {
     header {
         position: relative;
         background-color: var(--light-green);
-        /* height: 5em; */
         min-height: fit-content;
         padding-bottom: 1em;
     }
@@ -1239,7 +1210,6 @@ h4 {
 
     .menu-items>li a {
         font-size: 2em;
-        /* padding: 1em; */
     }
 
     .submitButtom {
@@ -1379,15 +1349,9 @@ h4 {
         left: 0;
     }
 
-
-    /*   ----------------------------       Added by Eric -----------   */
-
-
-
     .box-colour {
         margin-top: 15px;
     }
-
 
     .spacer {
         height: 0px;
@@ -1400,8 +1364,6 @@ h4 {
     .links-button {
         height: 40px;
     }
-
-
 
     .content-2 {
         right: 0;
