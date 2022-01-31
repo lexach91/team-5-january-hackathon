@@ -141,10 +141,11 @@ Below is a table we used to keep track of adjustments and to test adjustments ma
 
 |Features - Widths| 1570px | 1350px | 1050px | 970px | 768px |485px |
 | --- | --- | --- | --- | --- | --- | --- |
-| Navigation bar |||||||
-| Home page |||||||
-| Main images|||||||
+| Navigation bar |||| A |||
+| Home page ||| A ||||
+| Main images||| A ||||
 | About |||||||
+| Articles | A | A || A || A |
 | Stress page|||||||
 | Exercise page|||||||
 | Concentration page|||||||
