@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/"><img src="assets/images/logo/logo.png" height="400px" width="400px"></img></a></h1>
+<h1 align="center"><a href="https://lexach91.github.io/team-5-january-hackathon/"><img src="assets/images/readme_logo.png" height="200px"></img></a></h1>
 
 <details>
 <summary>Table of Contents</summary>
@@ -33,7 +33,7 @@
 
 <hr>
 
-(Image of responsive layout on screens or main page)
+![Responsivity](assets/images/responsive.png)
 # About Clover
 
 Clover was created with users working from home in mind. With the global pandemic of the previous two years, things have shifted dramatically within work places. We want to assist folks who are having trouble working from home. The website has a lot of resources for people to look over in order to get relevant information. It's critical that people realize they're not fighting alone in whatever battle they're now engaged in. We hope to generate participation from you and look forward to hearing from you.
@@ -165,17 +165,7 @@ The CSS was tested using the [W3C validator](https://validator.w3.org/). We did 
 ### Lighthouse
 To test our websites performance, accessibility, best practices and SEO we used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) resource [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 
-#### Performance
-(contents here)
-
-#### Accessibility
-(contents here)
-
-#### Best Practices
-(contents here)
-
-#### Search Engine Optimization
-(contents here)
+![Lighthouset test](assets/images/lighthouse_test.png)
 
 [Back to the top of page](#about-clover)
 <hr>
