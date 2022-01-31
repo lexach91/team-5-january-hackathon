@@ -204,7 +204,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const concentrationContainer = document.querySelector(".bottom-left");
   const sleepContainer = document.querySelector(".bottom-right");
 
-  if (window.location.pathname === "/team-5-january-hackathon/index.html") {
+  if (window.location.pathname === "/team-5-january-hackathon/index.html" || window.location.pathname === "/team-5-january-hackathon/") {
     stressContainer.addEventListener("click", () => {
       window.location.href = "stress.html";
     });
