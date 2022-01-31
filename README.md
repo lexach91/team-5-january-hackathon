@@ -151,6 +151,10 @@ Below is a table we used to keep track of adjustments and to test adjustments ma
 | Concentration page|||||||
 | Sleep page|||||||
 
+## Color Contrast Testing
+The color contrasts were tested on [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23000%0D%0A%23FFF%0D%0A%23E5F0E5%0D%0A%23CBE1CB%0D%0A%23A2CDA2%0D%0A%23335C33%0D%0A%23C497AB%0D%0A%2390516D&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp).  
+![Color Contrast](assets/images/color-contrast.png)
+
 ## Validator Testing
 ### HTML5
 The HTML was tested using the [W3C validator](https://validator.w3.org/). To do this we put the URL of each webpage into the validator.
