@@ -100,6 +100,7 @@ li:hover {
 .logo {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .logo img {
@@ -120,6 +121,7 @@ li:hover {
 
 .heading {
     margin-top: 15px;
+    padding: 0;
 }
 
 .heading a {
@@ -468,6 +470,7 @@ header {
 .pink-spacer {
     height: 20px;
     background-color: var(--comp-col);
+    padding: 0;
 }
 
 
@@ -545,23 +548,28 @@ header {
 }
 
 .rating-text {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 30px;
-    font-size: 30px;
+}
+
+rating-text p {
+    font-size: 1.5rem;
+}
+
+rating-text h4 {
+    font-size: 2rem;
 }
 
 /* ----------------------------------------------------Footer*/
 
 footer {
-    height: 200px;
+    height: 100px;
     width: 100%;
     text-align: center;
 }
 
 footer ul {
     list-style-type: none;
-    padding-top: 35px;
 }
 
 footer ul>li {
@@ -769,13 +777,11 @@ footer i {
     height: 200px;
     padding-top: 50px;
     margin-top: 20px;
+    background-color: #e5f0e5;
 }
 
-/*-----------------------------------------------Support Area*/
-
-.support {
-    height: 100px;
-    background-color: var(--comp-col);
+.support-heading {
+    background-color: #C497AB;
 }
 
 /*-----------------------------------------------Sleep Articles*/
