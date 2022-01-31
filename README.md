@@ -243,7 +243,7 @@ This was my third Hackathon and I must say it has been an absolute pleasure to b
 The teamwork has been fantastic. Thanks to all of you!!
 
 ## [Kristian Colville](https://github.com/KristianColville1):  
-
+This hackathon was a lot of fun for me. This was my first hackathon, and I'm happy for the experience and the opportunity to collaborate with such amazing people in the industry! Thanks everyone. 
 
 
 # Credits
