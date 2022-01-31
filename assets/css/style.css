@@ -147,6 +147,10 @@ li:hover {
     margin: 20px 0;
 }
 
+#message-field {
+    padding-left: 10px;
+}
+
 .quote {
     margin-top: 5px;
     background-color: #c1e5c182;
@@ -871,6 +875,10 @@ footer i {
     background-color: #C497AB;
 }
 
+#supportArea {
+    margin-top: 25px;
+}
+
 /*-----------------------------------------------Sleep Articles*/
 
 #sleep-article-1 {
@@ -1409,6 +1417,7 @@ h4 {
     .hidden-text>li {
         font-size: 16px;
     }
+    
 }
 
 @media(max-width: 485px) {
