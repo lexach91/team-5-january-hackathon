@@ -440,11 +440,13 @@ header {
 }
 
 .label {
-    background-color: var(--dark-green);
+    background-color: var(--medium-green);
     margin: 5px;
     padding-top: 10px;
-    color: white;
+    color: black;
     border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .article-heading {
@@ -609,7 +611,6 @@ footer i {
 
 .box-colour {
     margin: 5px 0;
-    background-color: var(--comp-col);
 }
 
 /*---------------------------------------------------Articles*/
@@ -745,8 +746,8 @@ footer i {
 }
 
 .active-links-button {
-    background-color: var(--dark-green);
-    color: white;
+    background-color: var(--comp-col);;
+    color: black;
 }
 
 .hidden-links {
@@ -1256,9 +1257,6 @@ footer i {
 
 
     /*   ----------------------------       Added by Eric -----------   */
-    .box-colour {
-        margin-top: 15px;
-    }
 
     .spacer {
         height: 0px;
