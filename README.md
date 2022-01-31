@@ -98,37 +98,6 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 <hr>
 
 # Testing
-## Testing the Features
-
-### Home page
-
-- Expected results:
-- Actual results:
-- User Stories fufilled:
- 
-### Main image
-
-- Expected results:
-- Actual results:
-- User Stories fufilled:
- 
-### 4 internal pages
-
-- Expected results:
-- Actual results:
-- User Stories fufilled:
- 
-### Newsletter
-
-- Expected results:
-- Actual results:
-- User Stories fufilled:
-
-### sign up form
-
-- Expected results:
-- Actual results:
-- User Stories fufilled:
 
 ## Responsive Testing
 This website was built as a desktop first solution with adjustments then made for smaller devices.
