@@ -385,6 +385,30 @@ li:hover {
     justify-self: flex-end;
     text-align: end;
 }
+
+/* ----------------------------------------------------Reviews*/
+/* Style bootstrap card */
+span i.fa-star {
+    color: var(--really-light-green);
+}
+
+span i.fa-star.checked {
+    color: var(--dark-green);
+}
+
+.review {
+    width: 80%;
+    height: 15em;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: var(--light-green);
+}
+
+.review .card-body {
+    padding: 0.5em;
+}
+
 /* ----------------------------------------------------Videos*/
 .video {
     border-radius: 10px;
@@ -535,6 +559,9 @@ header>div {
 .about-us {
     text-align: center;
     font-size: 22px;
+    min-height: 14em;
+    height: fit-content;
+    padding: 20px;
 }
 
 .about-us-positioning {
@@ -1475,5 +1502,32 @@ h4 {
     #slogan-1,
     #slogan-2 {
         font-size: 1.8em;
+    }
+    .about-us-section {
+        padding: 0 !important;
+    }
+    .about-us {
+        padding: 10px 0 !important;
+    }
+    .about-us-positioning {
+        width: 100%;
+    }
+
+    .review {
+        width: 100%;
+        padding: .2em;
+        height: fit-content;
+        height: 17em;
+    }
+
+    .review .card-body {
+        padding: 0.2em;
+        padding-top: 1em;
+    }
+    .arrow-right,
+    .arrow-left {
+        padding: 0;
+        margin: 0;
+        width: fit-content;
     }
 }
