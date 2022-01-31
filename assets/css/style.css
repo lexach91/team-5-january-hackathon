@@ -13,8 +13,8 @@ body {
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
     --comp-col: #C497AB;
-    --dark-comp-col:#90516D;
-    --black:#070D07;
+    --dark-comp-col: #90516D;
+    --black: #070D07;
 
 }
 
@@ -420,6 +420,7 @@ span i.fa-star.checked {
 .api {
     margin-bottom: 50px;
 }
+
 .api-container {
     display: flex;
     justify-content: center;
@@ -597,7 +598,7 @@ header>div {
     justify-content: center;
 }
 
-.team-id-image img{
+.team-id-image img {
 
     width: 75%;
     border-radius: 50%;
@@ -612,7 +613,8 @@ header>div {
 }
 
 .about-line {
-    border-top: solid 2px var(--comp-col);;
+    border-top: solid 2px var(--comp-col);
+    ;
 }
 
 /* ----------------------------------------------------Ratings*/
@@ -816,6 +818,7 @@ footer i {
     display: inline;
     color: var(--dark-comp-col);
 }
+
 .app-links-container:first-of-type i {
     width: 100%;
     display: inline;
@@ -828,7 +831,8 @@ footer i {
 }
 
 .active-links-button {
-    background-color: var(--comp-col);;
+    background-color: var(--comp-col);
+    ;
     color: black;
 }
 
@@ -1115,6 +1119,7 @@ footer i {
 #supportArea h3,
 h4 {
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 #supportArea img {
@@ -1179,9 +1184,11 @@ h4 {
     .hidden h2 {
         font-size: 22px;
     }
-    .hidden > h2 {
+
+    .hidden>h2 {
         padding-top: 4px;
     }
+
     .article-heading {
         font-size: 27px;
     }
@@ -1193,12 +1200,15 @@ h4 {
         min-width: 70%;
         padding: 20px;
     }
-    .hidden-text >p {
+
+    .hidden-text>p {
         font-size: 16px;
     }
+
     .hidden-text li {
         font-size: 16px;
     }
+
     .article-heading {
         font-size: 25px;
         font-weight: bold;
@@ -1335,8 +1345,8 @@ h4 {
         height: 100%;
         min-height: 200px;
         position: relative;
-    }    
-    
+    }
+
     .api-header:before {
         width: 75px;
         height: 75px;
@@ -1363,32 +1373,40 @@ h4 {
     .team-id-image img {
         width: 30%;
     }
+
     #small-meet-team {
         display: block;
     }
+
     .small-image-about img {
         width: 100%;
         border-radius: 50%;
         padding-top: 20%;
     }
+
     .small-text-about p {
         font-size: 15px;
         text-align: center;
     }
+
     #large-meet-team {
         display: none;
     }
+
     .small-text-about {
         padding: 5px;
         padding-top: 10%;
     }
+
     .meet-team-header {
         text-align: center;
     }
-    .hidden-text > p {
+
+    .hidden-text>p {
         font-size: 16px;
     }
-    .hidden-text > li {
+
+    .hidden-text>li {
         font-size: 16px;
     }
 }
@@ -1399,7 +1417,8 @@ h4 {
         justify-content: right;
         padding-right: 1em;
     }
-    .hidden-text > h4 {
+
+    .hidden-text>h4 {
 
         font-size: 16px;
     }
@@ -1503,12 +1522,15 @@ h4 {
     #slogan-2 {
         font-size: 1.8em;
     }
+
     .about-us-section {
         padding: 0 !important;
     }
+
     .about-us {
         padding: 10px 0 !important;
     }
+
     .about-us-positioning {
         width: 100%;
     }
@@ -1524,6 +1546,7 @@ h4 {
         padding: 0.2em;
         padding-top: 1em;
     }
+
     .arrow-right,
     .arrow-left {
         padding: 0;
