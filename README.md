@@ -157,10 +157,17 @@ The color contrasts were tested on [Contrast Grid](https://contrast-grid.eightsh
 
 ## Validator Testing
 ### HTML5
-The HTML was tested using the [W3C validator](https://validator.w3.org/). To do this we put the URL of each webpage into the validator.
+The HTML was tested using the [W3C validator](https://validator.w3.org/). To do this we put the URL of each webpage into the validator.  
+We recieved some errors due to imported files, but none on the site itself.
 
 ### CSS3
-The CSS was tested using the [W3C validator](https://validator.w3.org/). We did a direct input for our CSS file.
+The CSS was tested using the [W3C validator](https://validator.w3.org/). We did a direct input for our CSS file.  
+The test did test did not contain any Errors.
+
+### JSHint
+The JavaScript was tested using the [JSHint](https://jshint.com/). We did a direct input for our JS file.
+The file was tested without warnings.
+
 
 ### Lighthouse
 To test our websites performance, accessibility, best practices and SEO we used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) resource [Lighthouse](https://developers.google.com/web/tools/lighthouse).
@@ -236,7 +243,9 @@ Once steps 1 - 7 are completed you will now have a clone of this repository on y
 
 ## [Sophie Batten](https://github.com/sophiebatten123):  
 
-## [Eric Gaona](https://github.com/EricGaona):  
+## [Eric Gaona](https://github.com/EricGaona): 
+After one year without coding at all, this was my second Hackathon and I was a pleasure to be part of this great team.
+The teamwork was really nice. Thanks guys. 
 
 ## [Helena Johansson](https://github.com/Odden69):  
 This was my third Hackathon and I must say it has been an absolute pleasure to be a part of this fabulous team.
@@ -247,5 +256,5 @@ The teamwork has been fantastic. Thanks to all of you!!
 
 
 # Credits
-(contents here)
+We would like to thank Kasia Bogucka for the cheering you supported us with during this Hackathon. Thank You :smiley:
 [Back to the top of page](#about-clover)
