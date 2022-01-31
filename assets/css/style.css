@@ -147,6 +147,10 @@ li:hover {
     margin: 20px 0;
 }
 
+#message-field {
+    padding-left: 10px;
+}
+
 .quote {
     margin-top: 5px;
     background-color: #c1e5c182;
@@ -518,6 +522,7 @@ header>div {
     border-radius: 10px;
     text-align: left;
     font-size: 26px;
+    font-weight: bold;
 }
 
 .article-heading i {
@@ -751,6 +756,7 @@ footer i {
     padding-top: 15px;
     padding-left: 20px;
     text-align: left;
+    font-weight: bold;
 }
 
 .article-heading-hidden {
@@ -869,6 +875,10 @@ footer i {
 
 .support-heading {
     background-color: #C497AB;
+}
+
+#supportArea {
+    margin-top: 25px;
 }
 
 /*-----------------------------------------------Sleep Articles*/
@@ -1136,10 +1146,6 @@ h4 {
         font-size: 16px;
     }
 
-    .article-heading-hidden {
-        font-size: 24px;
-    }
-
     .hidden-text li {
         font-size: 18px;
     }
@@ -1187,10 +1193,6 @@ h4 {
 
     .hidden>h2 {
         padding-top: 4px;
-    }
-
-    .article-heading {
-        font-size: 27px;
     }
 }
 
@@ -1409,6 +1411,7 @@ h4 {
     .hidden-text>li {
         font-size: 16px;
     }
+    
 }
 
 @media(max-width: 485px) {
