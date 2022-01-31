@@ -112,8 +112,11 @@ li:hover {
 
 .logo-row {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .newsletter {
@@ -1173,7 +1176,7 @@ footer i {
   
     #menu-bar {
         background-color: var(--light-green-transparent);
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(15px);
         width: 100vw;
         height: 100vh;
         position: fixed;
@@ -1240,6 +1243,12 @@ footer i {
         /* mirror the arrow image */
         transform: rotate(-135deg) scaleX(-1) translateY(50%);
     }
+
+    .api-header {
+        margin-bottom: 1em;
+    }
+
+
 
     /* App links */
 
