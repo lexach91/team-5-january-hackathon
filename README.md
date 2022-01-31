@@ -214,6 +214,7 @@ Once steps 1 - 7 are completed you will now have a clone of this repository on y
 This was my second Hackathon wit Code Institute. I could've not even imagine before that a team can be so collaborative. That was a really great experience for me. Thank you team!
 
 ## [Sophie Batten](https://github.com/sophiebatten123):  
+This has been my first hackathon and I have really enjoyed it. Thank you to everyone within my team for your hard work! I look forward to the next one. Thanks everyone!
 
 ## [Eric Gaona](https://github.com/EricGaona): 
 After one year without coding at all, this was my second Hackathon and I was a pleasure to be part of this great team.
