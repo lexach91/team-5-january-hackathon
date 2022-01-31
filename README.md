@@ -70,7 +70,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 
 ## Features left to implement
 
-We would have to loved a social media section with a place for home working people to communicate
+We would have to loved a social media section with a place for home working people to communicate with each other.
 
 [Back to the top of page](#about-clover)
 <hr>
