@@ -230,6 +230,22 @@ Once steps 1 - 7 are completed you will now have a clone of this repository on y
 [Back to the top of page](#about-clover)
 <hr>
 
+# The Team
+
+## [Aleksei Konovalov](https://github.com/lexach91):  
+
+## [Sophie Batten](https://github.com/sophiebatten123):  
+
+## [Eric Gaona](https://github.com/EricGaona):  
+
+## [Helena Johansson](https://github.com/Odden69):  
+This was my third Hackathon and I must say it has been an absolute pleasure to be a part of this fabulous team.
+The teamwork has been fantastic. Thanks to all of you!!
+
+## [Kristian Colville](https://github.com/KristianColville1):  
+
+
+
 # Credits
 (contents here)
 [Back to the top of page](#about-clover)
