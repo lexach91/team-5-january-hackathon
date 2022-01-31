@@ -517,6 +517,7 @@ header>div {
     border-radius: 10px;
     text-align: left;
     font-size: 26px;
+    font-weight: bold;
 }
 
 .article-heading i {
@@ -749,6 +750,7 @@ footer i {
     padding-top: 15px;
     padding-left: 20px;
     text-align: left;
+    font-weight: bold;
 }
 
 .article-heading-hidden {
@@ -1131,10 +1133,6 @@ h4 {
         font-size: 16px;
     }
 
-    .article-heading-hidden {
-        font-size: 24px;
-    }
-
     .hidden-text li {
         font-size: 18px;
     }
@@ -1181,9 +1179,6 @@ h4 {
     }
     .hidden > h2 {
         padding-top: 4px;
-    }
-    .article-heading {
-        font-size: 27px;
     }
 }
 
