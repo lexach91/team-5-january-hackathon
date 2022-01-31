@@ -142,38 +142,39 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Load jokes/activities/quotes on page load
   // Execute functions on corresponding pages
-  if (window.location.pathname === "/stress.html") {
+  if (window.location.pathname === "/team-5-january-hackathon/stress.html") {
     getRandomJoke();
     refreshJoke.addEventListener("click", getRandomJoke);
   }
-  if (window.location.pathname === "/exercise.html") {
+  if (window.location.pathname === "/team-5-january-hackathon/exercise.html") {
     getRandomActivity();
     refreshActivity.addEventListener("click", getRandomActivity);
   }
-  if (window.location.pathname === "/concentration.html") {
+  if (
+    window.location.pathname === "/team-5-january-hackathon/concentration.html"
+  ) {
     getRandomQuote();
     refreshQuote.addEventListener("click", getRandomQuote);
   }
-  if (window.location.pathname === "/sleep.html") {
+  if (window.location.pathname === "/team-5-january-hackathon/sleep.html") {
     getRandomFact();
     refreshFact.addEventListener("click", getRandomFact);
   }
 
-  if (window.location.pathname !== "/index.html") {
-    $('.links-button').first().children('i').css('color', 'white');
-    $('.links-button').click(function() {
-      let activeLinksAreaSelector = '.' + this.id + '-links';
-      $('.link-display-area').addClass('hidden-links');
-      $(activeLinksAreaSelector).removeClass('hidden-links');
-      $('.links-button').removeClass('active-links-button');
-      $(this).addClass('active-links-button');
-      $('.links-button').children('i').removeClass('fa-arrow-alt-circle-right');
-      $('.links-button').children('i').addClass('fa-arrow-alt-circle-down');
-      $('.links-button').children('i').removeAttr('style');
-      $(this).children('i').removeClass('fa-arrow-alt-circle-down');
-      $(this).children('i').addClass('fa-arrow-alt-circle-right');
-      $(this).children('i').css('color', 'white');
-
+  if (window.location.pathname !== "/team-5-january-hackathon/index.html") {
+    $(".links-button").first().children("i").css("color", "white");
+    $(".links-button").click(function () {
+      let activeLinksAreaSelector = "." + this.id + "-links";
+      $(".link-display-area").addClass("hidden-links");
+      $(activeLinksAreaSelector).removeClass("hidden-links");
+      $(".links-button").removeClass("active-links-button");
+      $(this).addClass("active-links-button");
+      $(".links-button").children("i").removeClass("fa-arrow-alt-circle-right");
+      $(".links-button").children("i").addClass("fa-arrow-alt-circle-down");
+      $(".links-button").children("i").removeAttr("style");
+      $(this).children("i").removeClass("fa-arrow-alt-circle-down");
+      $(this).children("i").addClass("fa-arrow-alt-circle-right");
+      $(this).children("i").css("color", "white");
     });
   }
 
@@ -182,7 +183,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const concentrationContainer = document.querySelector(".bottom-left");
   const sleepContainer = document.querySelector(".bottom-right");
 
-  if (window.location.pathname === "/index.html") {
+  if (window.location.pathname === "/team-5-january-hackathon/index.html") {
     stressContainer.addEventListener("click", () => {
       window.location.href = "stress.html";
     });
