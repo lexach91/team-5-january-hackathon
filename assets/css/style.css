@@ -680,6 +680,7 @@ footer i {
     border-radius: 10px;
     height: 100%;
     display: none;
+    padding-top: 0;
 }
 
 .article-text-position {
@@ -690,14 +691,16 @@ footer i {
 
 .hidden-text>p {
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
+    padding-top: 0;
 }
 
 .hidden-text>h4 {
     font-size: 20px;
     text-align: left;
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 0;
+    margin-bottom: 2px;
     color: var(--dark-green);
 }
 
@@ -708,7 +711,7 @@ footer i {
 
 .hidden-text li {
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .hidden-text ul {
@@ -716,7 +719,7 @@ footer i {
 }
 
 .hidden>h2 {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 20px;
     text-align: left;
 }
@@ -1094,7 +1097,7 @@ h4 {
 /*-------------------------------------------------Media Queries*/
 @media (max-width: 1570px) {
     .hidden-text>p {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .hidden-text>h4 {
@@ -1106,7 +1109,7 @@ h4 {
     }
 
     .hidden-text li {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
@@ -1134,28 +1137,44 @@ h4 {
     }
 
     .hidden-text>h4 {
-        padding-bottom: 2px;
-        font-size: 15px;
+        padding-bottom: 1px;
+        font-size: 17px;
     }
 
     .hidden-text>p {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .hidden-text li {
-        font-size: 13px;
+        font-size: 17px;
     }
 
     .hidden h2 {
         font-size: 22px;
     }
+    .hidden > h2 {
+        padding-top: 4px;
+    }
+    .article-heading {
+        font-size: 27px;
+    }
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1000px) {
     .flower-row {
         grid-gap: 15px;
         min-width: 70%;
         padding: 20px;
+    }
+    .hidden-text >p {
+        font-size: 16px;
+    }
+    .hidden-text li {
+        font-size: 16px;
+    }
+    .article-heading {
+        font-size: 25px;
+        font-weight: bold;
     }
 }
 
@@ -1265,11 +1284,11 @@ h4 {
     }
 
     .hidden-text>p {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .hidden-text li {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .hidden h2 {
@@ -1338,6 +1357,12 @@ h4 {
     }
     .meet-team-header {
         text-align: center;
+    }
+    .hidden-text > p {
+        font-size: 16px;
+    }
+    .hidden-text > li {
+        font-size: 16px;
     }
 }
 
