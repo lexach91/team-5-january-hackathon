@@ -51,12 +51,13 @@ body {
 
 #menu-bar {
     width: 100%;
-    height: 5em;
+    height: 3em;
     background-color: var(--medium-green);
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 20px;
 }
 
 .menu-icon,
@@ -96,9 +97,15 @@ li:hover {
     transform: translateY(-5px) scale(1.05);
 }
 
-.menu-logo {
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
     height: 50px;
     width: 50px;
+    margin-top: 20px;
 }
 
 .newsletter {
@@ -111,9 +118,9 @@ li:hover {
     background-color: #c1e5c182;
 }
 
-/* .heading {
+.heading {
     margin-top: 15px;
-} */
+}
 
 .heading a {
     text-decoration: none;
@@ -121,7 +128,6 @@ li:hover {
 
 .heading span {
     text-decoration: none;
-    /* padding-top: 22px; */
     color: var(--dark-green);
     font-size: 36px;
 }
@@ -132,18 +138,20 @@ li:hover {
 
 #slogan-1 {
     opacity: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     animation-name: appear-1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
     padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #slogan-2 {
     opacity: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: right;
     /* position: relative; */
     /* top: -20px; */
@@ -154,6 +162,8 @@ li:hover {
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
@@ -206,7 +216,7 @@ li:hover {
     width: fit-content;
     min-width: 50%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 5px;
 }
 
 .grid-item {
@@ -451,9 +461,15 @@ header {
 }
 
 .green-spacer {
-    height: 50px;
+    height: 20px;
     background-color: var(--medium-green);
 }
+
+.pink-spacer {
+    height: 20px;
+    background-color: var(--comp-col);
+}
+
 
 .btn-success {
     color: #fff;
