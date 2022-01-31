@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .menu-icon,
@@ -120,7 +120,6 @@ li:hover {
 }
 
 .heading {
-    margin-top: 15px;
     padding: 0;
 }
 
@@ -131,7 +130,7 @@ li:hover {
 .heading span {
     text-decoration: none;
     color: var(--dark-green);
-    font-size: 36px;
+    font-size: 4rem;
 }
 
 /*-----------------------------------------------------Main Images*/
