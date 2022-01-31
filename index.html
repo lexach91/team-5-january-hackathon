@@ -18,8 +18,16 @@
 
 <body>
     <header class="container-fluid p-0">
-        <div class="col-12 center-text heading">
-            <a href="index.html" aria-label="Click here to go to the home page"><span>Clover</span></a>
+        <div class="row">
+            <div class="col-3 logo">
+                <img src="assets/images/logo.PNG" alt="Clover brand logo">
+            </div>
+            <div class="col-6 center-text heading">
+                <a href="index.html" aria-label="Click here to go to the home page"><span>Clover</span></a>
+            </div>
+            <div class="col-3 logo">
+                <img src="assets/images/logo.PNG" alt="Clover brand logo">
+            </div>
         </div>
         <button id="hamburger" class="hamburger hamburger--elastic-r" type="button"
             aria-label="Click to display menu on smaller screens">
@@ -29,8 +37,6 @@
         </button>
         <nav id="menu-bar">
             <ul class="menu-items">
-                <li><a href="index.html" aria-label="Click here to go to the home page"><img class="menu-logo"
-                            src="assets/images/logo-no-text/logo_transparent.png" alt="Clover brand logo"></a></li>
                 <li>
                     <a href="stress.html" aria-label="Click here to go our stress page">Stress</a>
                 </li>
@@ -45,6 +51,9 @@
                 </li>
             </ul>
         </nav>
+        <div class="row pink-spacer">
+            <div class="col-12"></div>
+        </div>
     </header>
     <main class="container-fluid">
 
@@ -118,44 +127,84 @@
                     <h2>Meet the Team</h2>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-3 team-id">
-                    <div class="row team-id-image"><img src="assets/images/person1.webp" alt="Picture of person 2"></div>
+            <div class="row" id="large-meet-team">
+                <div class="col-sm-6 col-md-3 team-id">
+                    <div class="row team-id-image"><img src="assets/images/person1.jpg" alt="Picture of person 1"></div>
                     <div class="row team-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus</p>
+                        <p><strong>Mark Tilbert</strong></p>
+                        <p>Mark is our exercise mental health specialist at clover. He offers guidance for those wanting
+                            to test their limits or support to those who are starting to improve their mental health
+                            through exercise.</p>
                     </div>
                 </div>
-                <div class="col-3 team-id">
-                    <div class="row team-id-image"><img src="assets/images/person2.webp" alt="Picture of person 2"></div>
+                <div class="col-sm-6 col-md-3 team-id">
+                    <div class="row team-id-image"><img src="assets/images/person2.jpg" alt="Picture of person 2"></div>
                     <div class="row team-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus</p>
+                        <p><strong>Kayleigh Spencer</strong></p>
+                        <p>Kayleigh's specialism is orientated around stress, anxiety and depression. She has a wealth
+                            of techniques that will help to keep your worries at equilibrium leaving you feeling happier
+                            and more in control. </p>
                     </div>
                 </div>
-                <div class="col-3 team-id">
-                    <div class="row team-id-image"><img src="assets/images/person3.webp" alt="Picture of person 2"></div>
+                <div class="col-sm-6 col-md-3 team-id">
+                    <div class="row team-id-image"><img src="assets/images/person3.jpg" alt="Picture of person 3"></div>
                     <div class="row team-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus</p>
+                        <p><strong>Heather Parmenter</strong></p>
+                        <p>Heather works predominently on stratergies to improve retention within the workplace. She
+                            provides ways to heighten concentration and mentally stimulate the brain.
+                        </p>
                     </div>
                 </div>
-                <div class="col-3 team-id">
-                    <div class="row team-id-image"><img src="assets/images/person4.webp" alt="Picture of person 2"></div>
+                <div class="col-sm-6 col-md-3 team-id">
+                    <div class="row team-id-image"><img src="assets/images/person4.jpg" alt="Picture of person 4"></div>
                     <div class="row team-text">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam quidem vitae, nesciunt itaque ab
-                            natus</p>
+                        <p><strong>Joseph Ward</strong></p>
+                        <p>Joseph is our sleep specialist at clover who basis his ideas soley on research. He has a
+                            wealth of knowledge around sleep disorders and uses these to inform his practice. </p>
                     </div>
+                </div>
+            </div>
+            <div class="row" id="small-meet-team">
+                <div class="row">
+                    <div class="col-6 small-image-about"><img src="assets/images/person1.jpg" alt="Picture of person 1"></div>
+                    <div class="col-6 small-text-about">
+                        <p><strong>Mark Tilbert</strong></p>
+                        <p>Mark is our exercise mental health specialist at clover. He offers guidance for those wanting
+                            to test their limits or support to those who are starting to improve their mental health
+                            through exercise.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 small-text-about">
+                        <p><strong>Kayleigh Spencer</strong></p>
+                        <p>Kayleigh's specialism is orientated around stress, anxiety and depression. She has a wealth
+                            of techniques that will help to keep your worries at equilibrium leaving you feeling happier
+                            and more in control. </p>
+                    </div>
+                    <div class="col-6 small-image-about about-line"><img src="assets/images/person2.jpg" alt="Picture of person 1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 small-image-about about-line"><img src="assets/images/person3.jpg" alt="Picture of person 1"></div>
+                    <div class="col-6 small-text-about">
+                        <p><strong>Heather Parmenter</strong></p>
+                        <p>Heather works predominently on stratergies to improve retention within the workplace. She
+                            provides ways to heighten concentration and mentally stimulate the brain.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 small-text-about">
+                        <p><strong>Joseph Ward</strong></p>
+                        <p>Joseph is our sleep specialist at clover who basis his ideas soley on research. He has a
+                            wealth of knowledge around sleep disorders and uses these to inform his practice. </p>
+                    </div>
+                    <div class="col-6 small-image-about about-line"><img src="assets/images/person4.jpg" alt="Picture of person 1"></div>
                 </div>
             </div>
         </section>
         <section class="container-fluid support">
             <div class="row">
-                <div class="col-12 center-text">
+                <div class="col-12 center-text support-heading">
                     <h3>Support Networks</h3>
                 </div>
             </div>
@@ -167,12 +216,21 @@
             <div class="row">
                 <div class="col-4 ratings-icon"><i class="fas fa-medal" aria-hidden="true"></i></div>
                 <div class="col-4 ratings-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
-                <div class="col-4 ratings-icon"><i class="far fa-star" aria-hidden="true"></i></div>
+                <div class="col-4 ratings-icon"><i class="fas fa-star" aria-hidden="true"></i></div>
             </div>
             <div class="row">
-                <div class="col-4 rating-text">Ratings text here</div>
-                <div class="col-4 rating-text">Ratings text here</div>
-                <div class="col-4 rating-text">Ratings text here</div>
+                <div class="col-4 rating-text">
+                    <h4><strong>102.8K Ratings</strong></h4>
+                    <p>on IOS and Google Play</p>
+                </div>
+                <div class="col-4 rating-text">
+                    <h4><strong>40M Subscribers</strong></h4>
+                    <p>Across all platforms</p>
+                </div>
+                <div class="col-4 rating-text">
+                    <h4><strong>4.8 Stars</strong></h4>
+                    <p>Average Rating</p>
+                </div>
             </div>
         </section>
         <section class="container-fluid newsletter">

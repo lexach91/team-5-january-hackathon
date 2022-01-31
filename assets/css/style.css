@@ -12,6 +12,7 @@ body {
     --medium-green: #A2CDA2;
     --dark-green: #335C33;
     --comp-col: #C497AB;
+    --dark-comp-col:#90516D;
     --black:#070D07;
 }
 
@@ -50,12 +51,13 @@ body {
 
 #menu-bar {
     width: 100%;
-    height: 5em;
+    height: 3em;
     background-color: var(--medium-green);
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5px;
 }
 
 .menu-icon,
@@ -95,9 +97,16 @@ li:hover {
     transform: translateY(-5px) scale(1.05);
 }
 
-.menu-logo {
-    height: 120px;
-    width: 120px;
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
 }
 
 .newsletter {
@@ -110,9 +119,9 @@ li:hover {
     background-color: #c1e5c182;
 }
 
-/* .heading {
-    margin-top: 15px;
-} */
+.heading {
+    padding: 0;
+}
 
 .heading a {
     text-decoration: none;
@@ -120,9 +129,8 @@ li:hover {
 
 .heading span {
     text-decoration: none;
-    /* padding-top: 22px; */
     color: var(--dark-green);
-    font-size: 36px;
+    font-size: 4rem;
 }
 
 /*-----------------------------------------------------Main Images*/
@@ -131,18 +139,20 @@ li:hover {
 
 #slogan-1 {
     opacity: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     animation-name: appear-1;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
     padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 #slogan-2 {
     opacity: 0;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: right;
     /* position: relative; */
     /* top: -20px; */
@@ -153,6 +163,8 @@ li:hover {
     animation-timing-function: ease-in-out;
     animation-delay: 2s;
     padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 
@@ -205,7 +217,7 @@ li:hover {
     width: fit-content;
     min-width: 50%;
     margin: 0 auto;
-    padding: 40px;
+    padding: 5px;
 }
 
 .grid-item {
@@ -228,7 +240,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture2-modified.webp') no-repeat bottom center;
+    background: url('../images/Picture2.png') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-end;
@@ -259,7 +271,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture1-modified.webp') no-repeat bottom center;
+    background: url('../images/Picture1.png') no-repeat bottom center;
     background-size: contain;
     align-self: flex-end;
     justify-self: flex-start;
@@ -291,7 +303,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture3-modified.webp') no-repeat top center;
+    background: url('../images/Picture3.png') no-repeat top center;
     background-size: contain;
     align-self: flex-start;
     justify-self: flex-end;
@@ -322,7 +334,7 @@ li:hover {
     width: 100%;
     max-width: 250px;
     max-height: 250px;
-    background: url('../images/Picture4-modified.webp') no-repeat top center;
+    background: url('../images/Picture4.png') no-repeat top center;
     background-size: contain;
     grid-area: 1 / 1 / 2 / 2;
 }
@@ -395,14 +407,14 @@ li:hover {
     width: 30px;
     height: 30px;
     font-size: 25px;
-    color: var(--dark-green)
+    color: var(--comp-col);
 }
 
 
 .api-header:before {
     content: '';
     position: absolute;
-    background: url('../images/arrow.png') no-repeat center center;
+    background: url('../images/arrow_pink.png') no-repeat center center;
     background-size: contain;
     width: 100px;
     height: 100px;
@@ -435,11 +447,13 @@ header {
 }
 
 .label {
-    background-color: var(--dark-green);
+    background-color: var(--medium-green);
     margin: 5px;
     padding-top: 10px;
-    color: white;
+    color: black;
     border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .article-heading {
@@ -452,15 +466,22 @@ header {
 }
 
 .article-heading i {
-    color: var(--dark-green);
+    color: var(--dark-comp-col);
     font-size: 25px;
     margin-top: 10px;
 }
 
 .green-spacer {
-    height: 50px;
+    height: 20px;
     background-color: var(--medium-green);
 }
+
+.pink-spacer {
+    height: 20px;
+    background-color: var(--comp-col);
+    padding: 0;
+}
+
 
 .btn-success {
     color: #fff;
@@ -489,17 +510,28 @@ header {
 
 /* -------------------------------------------------Meet the Team */
 
+#small-meet-team {
+    display: none;
+}
+
 .meet-team-header {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
+.meet-team-header h2 {
+    font-size: 36px;
+}
+
+.team-id-image {
+    display: flex;
+    justify-content: center;
+}
+
 .team-id-image img{
-    height: 300px;
     width: 75%;
-    margin-left: 50px;
-    margin-top: 10px;
+    border-radius: 50%;
 }
 
 .team-text {
@@ -510,6 +542,10 @@ header {
     padding-right: 15px;
 }
 
+.about-line {
+    border-top: solid 2px var(--comp-col);;
+}
+
 /* ----------------------------------------------------Ratings*/
 
 .ratings-icon {
@@ -517,26 +553,32 @@ header {
     justify-content: center;
     padding-top: 30px;
     font-size: 30px;
+    color: var(--dark-comp-col);
 }
 
 .rating-text {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 30px;
-    font-size: 30px;
+}
+
+rating-text p {
+    font-size: 1.5rem;
+}
+
+rating-text h4 {
+    font-size: 2rem;
 }
 
 /* ----------------------------------------------------Footer*/
 
 footer {
-    height: 200px;
+    height: 100px;
     width: 100%;
     text-align: center;
 }
 
 footer ul {
     list-style-type: none;
-    padding-top: 35px;
 }
 
 footer ul>li {
@@ -571,12 +613,11 @@ footer i {
 
 .video {
     /* height: 410px; */
-    padding: 20px;
+    padding: 10px;
 }
 
 .box-colour {
     margin: 5px 0;
-    background-color: var(--comp-col);
 }
 
 /*---------------------------------------------------Articles*/
@@ -646,7 +687,7 @@ footer i {
 }
 
 .article-heading-hidden i {
-    color: var(--dark-green);
+    color: var(--comp-col);
     font-size: 25px;
     margin-top: 10px;
 }
@@ -698,6 +739,12 @@ footer i {
 .links-button i {
     width: 100%;
     display: inline;
+    color: var(--dark-comp-col);
+}
+.app-links-container:first-of-type i {
+    width: 100%;
+    display: inline;
+    color: white;
 }
 
 .links-button:hover {
@@ -706,8 +753,8 @@ footer i {
 }
 
 .active-links-button {
-    background-color: var(--dark-green);
-    color: white;
+    background-color: var(--comp-col);;
+    color: black;
 }
 
 .hidden-links {
@@ -737,13 +784,12 @@ footer i {
 .support {
     height: 200px;
     padding-top: 50px;
+    margin-top: 20px;
+    background-color: #e5f0e5;
 }
 
-/*-----------------------------------------------Support Area*/
-
-.support {
-    height: 100px;
-    background-color: var(--comp-col);
+.support-heading {
+    background-color: #C497AB;
 }
 
 /*-----------------------------------------------Sleep Articles*/
@@ -809,7 +855,7 @@ footer i {
 #stress-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress1.jpeg') no-repeat center center;
+    background: url('../images/stress1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -823,7 +869,7 @@ footer i {
 #stress-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress2.jpg') no-repeat center center;
+    background: url('../images/stress2.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -837,7 +883,7 @@ footer i {
 #stress-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress4.jpeg') no-repeat center center;
+    background: url('../images/stress4.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -851,7 +897,7 @@ footer i {
 #stress-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/stress5.jpeg') no-repeat center center;
+    background: url('../images/stress5.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -867,7 +913,7 @@ footer i {
 #exercise-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise1.jpeg') no-repeat center center;
+    background: url('../images/exercise1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -881,7 +927,7 @@ footer i {
 #exercise-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise2.jpeg') no-repeat center center;
+    background: url('../images/exercise2.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -895,7 +941,7 @@ footer i {
 #exercise-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise3.jpeg') no-repeat center center;
+    background: url('../images/exercise3.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -909,7 +955,7 @@ footer i {
 #exercise-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/exercise4.jpeg') no-repeat center center;
+    background: url('../images/exercise4.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -925,7 +971,7 @@ footer i {
 #concentration-article-1 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration1.jpeg') no-repeat center center;
+    background: url('../images/concentration1.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -939,7 +985,7 @@ footer i {
 #concentration-article-2 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration3.jpeg') no-repeat center center;
+    background: url('../images/concentration3.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -953,7 +999,7 @@ footer i {
 #concentration-article-3 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration5.jpeg') no-repeat center center;
+    background: url('../images/concentration5.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -967,7 +1013,7 @@ footer i {
 #concentration-article-4 {
     height: 400px;
     width: 100%;
-    background: url('../images/concentration6.jpeg') no-repeat center center;
+    background: url('../images/concentration6.webp') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1037,7 +1083,7 @@ footer i {
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
     .link-display-area {
         height: 230px;
     }
@@ -1123,11 +1169,6 @@ footer i {
         /* padding: 1em; */
     }
 
-    .menu-logo {
-        height: 200px;
-        width: 200px;
-    }
-
     .submitButtom {
         margin-left: 18px;
     }
@@ -1147,6 +1188,34 @@ footer i {
     /* App links */
 
     .app-link-container {
+        text-align: center;
+    }
+}
+
+@media(max-width: 575px) {
+    .team-id-image img {
+        width: 30%;
+    }
+    #small-meet-team {
+        display: block;
+    }
+    .small-image-about img {
+        width: 100%;
+        border-radius: 50%;
+        padding-top: 20%;
+    }
+    .small-text-about p {
+        font-size: 15px;
+        text-align: center;
+    }
+    #large-meet-team {
+        display: none;
+    }
+    .small-text-about {
+        padding: 5px;
+        padding-top: 10%;
+    }
+    .meet-team-header {
         text-align: center;
     }
 }
@@ -1195,9 +1264,6 @@ footer i {
 
 
     /*   ----------------------------       Added by Eric -----------   */
-    .box-colour {
-        margin-top: 15px;
-    }
 
     .spacer {
         height: 0px;
