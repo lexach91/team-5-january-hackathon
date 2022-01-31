@@ -3,6 +3,7 @@
 body {
     font-family: 'Zen Kurenaido', sans-serif;
     background-color: var(--really-light-green);
+    max-width: 100vw;
 }
 
 :root {
@@ -433,6 +434,10 @@ header {
     background-color: white;
 }
 
+header>div {
+    max-width: 100%;
+}
+
 .center-text {
     text-align: center;
 }
@@ -480,6 +485,9 @@ header {
     height: 20px;
     background-color: var(--comp-col);
     padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
 }
 
 
@@ -1125,7 +1133,13 @@ footer i {
     header {
         position: relative;
         background-color: var(--light-green);
-        height: 5em;
+        /* height: 5em; */
+        min-height: fit-content;
+        padding-bottom: 1em;
+    }
+
+    .pink-spacer {
+        margin-bottom: 1.5em;
     }
     
     #hamburger {
