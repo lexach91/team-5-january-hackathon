@@ -110,6 +110,12 @@ li:hover {
     margin-top: 20px;
 }
 
+.logo-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
 .newsletter {
     background-color: var(--medium-green);
     margin: 20px 0;
@@ -519,9 +525,9 @@ header>div {
     margin: 0 auto;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    color: #000;
+.carousel-control-next i,
+.carousel-control-prev i {
+    color: var(--dark-green) !important;
 }
 
 /* -------------------------------------------------Meet the Team */
@@ -1146,6 +1152,10 @@ footer i {
         padding-bottom: 1em;
     }
 
+    .logo-row {
+        justify-content: center;
+    }
+
     .pink-spacer {
         margin-bottom: 1.5em;
     }
@@ -1267,6 +1277,10 @@ footer i {
 }
 
 @media(max-width: 485px) {
+    .logo-row {
+        justify-content: right;
+        padding-right: 1em;
+    }
     .hidden-text > h4 {
         font-size: 16px;
     }
