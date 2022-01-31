@@ -51,7 +51,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 * As a user, I would like to know more about Clover.
 * As a user, I would like to sign up for a newsletter.
 * As a user, I would like to find Clover on other websites.
-* As a user, I need to be able to contact Clover.
+* As a user, I would like to be able to find links to useful apps and other informative sites.
 * As a user, it is important I understand how to use the website.
 
 
@@ -63,11 +63,10 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 # Features
 ## Existing Features
 
-* Home page
-* Main image
-* 4 internal pages
-* Newsletter
-* sign up form
+* Home page with general information about Clover.
+* Main image with links to the rest of the site.
+* 4 internal pages on different topics.
+* sign up form for Newsletter.
 
 ## Features left to implement
 
@@ -78,6 +77,7 @@ Heres a link to the [website](https://lexach91.github.io/team-5-january-hackatho
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) was used to structure webpages.
 * [CSS3](https://en.wikipedia.org/wiki/CSS) used for styling the website.
 * [JavaScript](https://www.javascript.com/) was used to add interative content.
+* [JQuery](https://code.jquery.com/jquery-3.6.0.js) was used to add interative content.
 * [Git](https://git-scm.com/) was our version control system.
 * [GitPod](https://www.gitpod.io/) was used as local IDE and repository.
 * [GitHub](https://github.com/) as our remote repository.
