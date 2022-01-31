@@ -24,7 +24,37 @@ body {
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*---------------------------------------------------Navigation Links */
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    background-color: var(--dark-comp-col);
+    color: var(--really-light-green);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.go-to-top:hover {
+    background-color: var(--light-green);
+    color: var(--dark-comp-col);
+    text-decoration: none;
+    opacity: 1;
+}
+
 .sticky {
     position: fixed;
     top: 0;

@@ -1,6 +1,18 @@
 /* jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", () => {
   const navBar = document.querySelector("#menu-bar");
+  const hamburger = document.querySelector("#hamburger");
+  const goTopButton = document.querySelector(".go-to-top");
+
+  // make goTopButton appear when scrolling under the navbar
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > navBar.offsetHeight) {
+      goTopButton.style.display = "flex";
+    } else {
+      goTopButton.style.display = "none";
+    }
+  });
+
   // sticky navbar
   let sticky = navBar.offsetTop;
   const stickyNav = () => {
@@ -11,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
   window.addEventListener("scroll", stickyNav);
-  const hamburger = document.querySelector("#hamburger");
   const toggleMenu = () => {
     navBar.classList.toggle("open");
     hamburger.classList.toggle("is-active");
