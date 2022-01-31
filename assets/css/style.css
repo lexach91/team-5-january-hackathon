@@ -52,6 +52,13 @@ body {
     top: 0;
     width: 100%;
     z-index: 100;
+    opacity: 0.7;
+    margin-top: 0 !important;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.sticky:hover {
+    opacity: 1;
 }
 
 #hamburger {
@@ -450,6 +457,7 @@ header {
     /* border-bottom: solid 2px green;
     margin-bottom: 10px; */
     background-color: white;
+    position: relative;
 }
 
 header>div {

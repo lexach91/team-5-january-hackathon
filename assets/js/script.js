@@ -1,6 +1,16 @@
 /* jshint esversion: 6 */
 document.addEventListener("DOMContentLoaded", () => {
   const navBar = document.querySelector("#menu-bar");
+  // sticky navbar
+  let sticky = navBar.offsetTop;
+  const stickyNav = () => {
+    if (window.pageYOffset >= sticky) {
+      navBar.classList.add("sticky");
+    } else {
+      navBar.classList.remove("sticky");
+    }
+  };
+  window.addEventListener("scroll", stickyNav);
   const hamburger = document.querySelector("#hamburger");
   const toggleMenu = () => {
     navBar.classList.toggle("open");
