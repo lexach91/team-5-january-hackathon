@@ -165,17 +165,7 @@ The CSS was tested using the [W3C validator](https://validator.w3.org/). We did 
 ### Lighthouse
 To test our websites performance, accessibility, best practices and SEO we used [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) resource [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 
-#### Performance
-(contents here)
-
-#### Accessibility
-(contents here)
-
-#### Best Practices
-(contents here)
-
-#### Search Engine Optimization
-(contents here)
+![Lighthouset test](assets/images/lighthouse_test.png)
 
 [Back to the top of page](#about-clover)
 <hr>
