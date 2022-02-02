@@ -235,6 +235,10 @@ li:hover {
     }
 }
 
+.small-main-text {
+    display: none;
+}
+
 /* make grid for flower container */
 .flower-row {
     display: grid;
@@ -1368,6 +1372,16 @@ h4 {
 
     .app-link-container {
         text-align: center;
+    }
+}
+
+@media(max-width:670px) {
+    .small-main-text {
+        display: block;
+        font-size: 15px;
+    }
+    .large-main-text {
+        display: none;
     }
 }
 
